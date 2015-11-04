@@ -1,0 +1,25 @@
+/* removes the top bar */
+div#topBar,
+div#sidebar ul#sidebarNav { display: none;}
+div#information div#info, div#content { margin-left: 3px;}
+
+/* corrects the position of the content and sidebar */
+div#content { margin-top: -50px; margin-bottom: 0;}
+div#sidebarContent { padding-top: 0; margin-top: -15px; }
+
+/* no z-index */
+#wrapHeader { z-index: 0;  height: 233px !important; }
+#wrapContent { z-index: 0;}
+
+/* header reset settings */
+div#header{ position: static; z-index: 0; background: none ; overflow: visible; left: 0; margin-left: 0;}
+
+.skill_list ul li { display: inline; }
+
+.skill_list ul { width: 310px; margin-right: 0; }
+
+.skill_set { display: none; }
+
+#cv { display: none; }
+
+

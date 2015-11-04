@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" hv="a0" style="">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>{{title.html}}</title>
+	
+	<!-- Styles Are set here -->
+    <link href="./website/reset.css" rel="stylesheet" type="text/css">
+	<link href="./website/960_24.css" rel="stylesheet" type="text/css">
+    <link href="./website/styles.css" rel="stylesheet" type="text/css">
+    <!-- print settings -->
+    <link href="./website/print.css" rel="stylesheet" type="text/css" media="print">
+	
+	<!-- ///// JAVASCRIPT AND JQUERY CALLING -->
+	<script type="text/javascript" src="./website/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="./website/smooth-scroll.js"></script>
+	<script type="text/javascript" src="./website/custom.js"></script>
+
+	<!-- fonts -->
+	<script src="website/cufon-yui.js" type="text/javascript"></script>
+	<script src="website/myriad-pro.cufonfonts.js" type="text/javascript"></script>
+	<script src="website/cufon-replace.js" type="text/javascript"></script>
+
+	<!-- IE 7 setting -->
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" type="text/css" href="./website/ie.css" media="all" />
+	<![endif]-->
+
+</head>
+
+<body>
+<div id="wrap">
+<!-- Start of Wrap Header -->
+	<div id="wrapHeader">
+		<!-- Header starts here - This is fixed to the top of the window -->
+		<div id="header">
+		<!-- 960gs div -->
+		<div class="container_24">
+			<div id="topBar">
+				<!-- Years on the top goes here -->
+				<div class="grid_13" id="years">
+					<ul id="yearsNav">
+						<li class="yearsLi firstYear"><a href="#y{{years.first-start-date}}">{{years.first-year}}</a></li>
+                        {{#years.years}}
+						<li class="yearsLi"><a href="#y{{start-date}}">{{year}}</a></li>
+                        {{/years.years}}
+						<li class="yearsLi lastYear"><a href="#wrap" class="active">{{years.last-year}}</a></li>
+					</ul>
+				</div>
+				<!-- end of years nav -->
+				<!-- Hire Me text goes here -->
+				<div class="grid_11" id="topBarRight">
+					<h2>{{title.first-part}} <em>{{title.second-part}}</em></h2>
+				</div>
+				<!-- end of hire me text div-->
+			</div>
+			<!-- Below the dark bar, but still the header - Starts here -->
+			<div id="information">
+				<!-- important contact info here -->
+				<div class="grid_13" id="info">
+					<h2>{{contact.email}}<br><em>{{contact.phone}}</em></h2>
+				</div>
+				<!-- Your name should go here -->
+				<div class="grid_11" id="name"><h1><a href="#wrap">{{first-name}} <br><em>{{sur-name}}</em></a></h1></div>
+				
+			</div>
+			<!-- / end of header ( white part ) -->
+		</div>
+		<!-- 960gs div end here -->
+		</div>
+		<!-- Header ends here -->		
+	</div>
+<!-- End of Wrap Header DIV /// -->
+<!-- ////////////////////////// -->	
+
+<!-- //////////////////////////// -->	
+<!--  START OF CONTENT WRAP DIV   -->
+<div id="wrapContent" class="container_24">
+<!-- //////////////////////////// -->	
+<!-- START OF THE JOB CONTENT DIV -->
+	<div id="content" class="grid_13">
+	
+		<!-- ////////////////////////////////////////////////////////////////-->
+		<!-- /////////////  LIST OF JOBS / PROJECTS AND MORE   //////////////-->
+		<!-- ////////////////////////////////////////////////////////////////-->	
+
+        {{#experience}}
+				<!-- list of jobs {{start-date}} -->
+				<div class="yearPanel" id="y{{start-date}}">
+				
+					<!-- This is a ResumeEntry -->
+					<div class="resumeEntry">
+						<div class="when grid_3">
+							<!-- date of the job -->
+							<p>{{start-date}}<br><em>~{{end-date}}</em></p>
+						</div>
+						
+						<!-- description of the job or project -->
+						<div class="description grid_9">
+                            {{#positions}}
+							<h3>{{title}}</h3>
+                            {{/positions}}
+							<h5>{{company.name}}, {{company.location.city}}, {{company.location.country}}</h5>
+                            {{#projects}}
+							<p>{{description}}</p>
+                            {{/projects}}
+						</div>
+						<div class="clear">&nbsp;</div>
+					</div>
+					<!-- ResumeEntry ends Here -->
+				</div>
+				<!-- {{start-date}} job list ends here -->
+        {{/experience}}
+
+		<!-- ////////////////////////////////////////////////////////////////-->
+		<!-- /////////////////  LIST OF JOBS / ENDS HERE    /////////////////-->
+		<!-- ////////////////////////////////////////////////////////////////-->	
+		
+	
+	</div>
+	<!-- jobs content div ends here -->
+	<!-- ////////////////////////// -->
+	
+	<!-- ///////////////////////// -->
+	<!-- right sidebar starts here -->
+	
+	<div id="sidebar" class="grid_11">
+		<ul id="sidebarNav">
+			<li class="sidebarLi"><a href="#wrap" class="active">Profile</a></li>
+			<li class="sidebarLi"><a href="#skills">Skills </a></li>
+			<li class="sidebarLi"><a href="#education">Education</a></li>
+			<li class="sidebarLi"><a href="#cv">CV</a></li>
+		</ul>
+		
+		<div id="sidebarContent" class="grid_8">
+			<!-- start of profile info (sidebar) -->			
+			<div id="profile" class="sidebarPanel">
+				<h4>{{summary.title}}</h4>
+				<p>{{summary.description}}</p>
+			</div>
+			<!-- // end of profile info (sidebar) -->
+			<!-- start of skills info (sidebar) -->
+			<div id="skills" class="sidebarPanel">
+				<h4>skills</h4>
+
+                {{#categories}}
+				<h5>{{name}}</h5>
+				<div class="technical_skill">
+					<div class="skill_list">
+						<ul>
+                        {{#skills}}
+							<li>{{name}}</li>
+                        {{/skills}}
+						</ul>
+					</div>
+					<div class="skill_set">
+						<!--PROGRESS BAR-->
+						<ul>
+                            {{#skills}}
+							<li>
+								<div class="progress_container">
+									<div class="progress_bar" style="width: {{percentage}}%;"></div>
+								</div>
+							</li>
+                            {{/skills}}
+						</ul>
+					</div>
+				</div>
+                {{/categories}}
+
+				<div class="clear">&nbsp;</div>
+			</div>
+			<!-- // end of skills info (sidebar) -->
+			<!-- start of education info (sidebar) -->
+			<div id="education" class="sidebarPanel" style="padding-top: 20px">
+				<h4>education</h4>
+
+                {{#learning.education}}
+                    {{start-date}} - {{end-date}}<br>
+				<p>
+                    {{field-of-study}}<br>
+					<em>{{school-name}}</em><br>
+				</p>
+                {{/learning.education}}
+			</div>
+			<!-- // end of education info (sidebar) -->
+			<!-- start of cv info (sidebar) -->
+			<div id="cv" class="sidebarPanel">
+				<h4>cv / pages</h4>
+
+				<p style="width: 250px">
+					<a href="{{cv-name}}.adoc"><img src="website/icon/asciidoctor.png" alt="CV in Asciidoc format"/></a>
+					<a href="{{contact.github}}"><img src="website/icon/github.png" alt="GitHub page"/></a>
+					<a href="{{cv-name}}.txt"><img src="website/icon/txt.png" alt="CV in TXT format"/></a>
+					<a href="{{cv-name}}.md"><img src="website/icon/markdown.png" alt="CV in Markdown format"/></a>
+					<a href="{{contact.linkedin}}"><img src="website/icon/linkedin.png" alt="LinkedIn page"/></a>
+					<a href="{{cv-name}}.pdf"><img src="website/icon/pdf.png" alt="CV in PDF format"/></a>
+					<a href="{{cv-name}}.json"><img src="website/icon/json.png" alt="CV in JSON format"/></a>
+				</p>
+			</div>
+			<!-- // end of cv info (sidebar) -->
+		</div>
+		
+	</div>	
+	<!-- end of the right sidebar -->
+	<!-- ///////////////////////// -->
+</div>
+<!-- End of wrapContent DIV -->
+<!-- ///////////////////////// -->
+<div class="clear">&nbsp;</div>
+</div>
+<!--/////// END OF WRAP DIV -->
+
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-46852385-1', 'geomap-czermin.pl');
+    ga('send', 'pageview');
+
+</script>
+
+</body></html>

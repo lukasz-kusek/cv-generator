@@ -1,0 +1,651 @@
+{
+  "first-name": "Łukasz",
+  "sur-name": "Kusek",
+  "contact": {
+    "phone": "(44) 777 420 1310",
+    "email": "lukasz-cv@kusek.info",
+    "github": "https://github.com/lukasz-kusek",
+    "linkedin": "http://pl.linkedin.com/pub/%C5%82ukasz-kusek/51/b4a/1b9/en",
+    "website": "http://lukasz.kusek.info",
+    "address": "Harpenden, UK"
+  },
+  "summary": {
+    "title": "Senior Software Engineer",
+    "description": "Software engineer with over 5 years commercial experience (9 years including part-time jobs). My area of expertise is building highly available backend services on JVM platform (Scala, Java)."
+  },
+  "experience": [
+    {
+      "positions": [
+        {
+          "title": "Senior Software Engineer"
+        }
+      ],
+      "employment": "full-time",
+      "company": {
+        "name": "Ocado Technology",
+        "industry": "Online grocery retail",
+        "location": {
+          "city": "Hatfield",
+          "country": "United Kingdom"
+        }
+      },
+      "projects": [
+        {
+          "description": "I'm working in an agile team creating microservices providing availability of products and allowing to allocate products for customers. Services are designed to be highly available (akka cluster, AWS, blue-green deployment), highly responsible (actor model) and low latency (in-memory cache with akka sharding). Services are based on CQRS and eventsoursing.",
+          "start-date": "2015-07"
+        },
+        {
+          "description": "I've worked on replatforming existing order management services to cloud based microservices.",
+          "end-date": "2015-07"
+        }
+      ],
+      "start-date": "2015-02",
+      "skills": [
+        {
+          "name": "Microservices",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "JSON",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "REST",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Swagger",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "Hystrix",
+          "end-date": "2015-07",
+          "usage-frequency": "occasionally",
+          "category": "library"
+        },
+        {
+          "name": "PostgreSQL",
+          "end-date": "2015-07",
+          "usage-frequency": "occasionally",
+          "category": "database"
+        },
+        {
+          "name": "Cucumber",
+          "end-date": "2015-07",
+          "usage-frequency": "often",
+          "category": "library"
+        },
+        {
+          "name": "Mockito",
+          "end-date": "2015-07",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "AssertJ",
+          "end-date": "2015-07",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "JUnit",
+          "end-date": "2015-07",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Java",
+          "detailed-name": "Java 8",
+          "end-date": "2015-07",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Jenkins",
+          "end-date": "2015-07",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Guice",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "DynamoDB",
+          "usage-frequency": "occasionally",
+          "category": "database"
+        },
+        {
+          "name": "Crucible",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Kibana",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Logstash",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "GO",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "AWS",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Git",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Intellij IDEA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Maven",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Scala",
+          "start-date": "2015-07",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "ScalaTest",
+          "start-date": "2015-07",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "JIRA",
+          "start-date": "2015-07",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Spray",
+          "start-date": "2015-07",
+          "usage-frequency": "occasionally",
+          "category": "library"
+        },
+        {
+          "name": "Akka",
+          "start-date": "2015-07",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Event Sourcing",
+          "start-date": "2015-07",
+          "usage-frequency": "often",
+          "category": "other"
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "title": "Senior Software Developer"
+        }
+      ],
+      "employment": "full-time",
+      "company": {
+        "name": "Luxoft",
+        "industry": "Investment banking",
+        "location": {
+          "city": "Krakow",
+          "country": "Poland"
+        }
+      },
+      "projects": [
+        {
+          "description": "Contractor at UBS Investment Bank. I've worked on capital commitment, automatic indication of interest generation and trade advertising applications at Cash Equities project."
+        }
+      ],
+      "start-date": "2014-03",
+      "end-date": "2015-01",
+      "skills": [
+        {
+          "name": "QuickFIX/J",
+          "usage-frequency": "often",
+          "category": "library"
+        },
+        {
+          "name": "CameronFIX",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Spock",
+          "start-date": "2014-05",
+          "usage-frequency": "occasionally",
+          "category": "library"
+        },
+        {
+          "name": "Groovy",
+          "start-date": "2014-05",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "Git",
+          "start-date": "2014-08",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Gradle",
+          "start-date": "2014-06",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Jenkins",
+          "start-date": "2014-10",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Java",
+          "detailed-name": "Java 6",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Oracle",
+          "usage-frequency": "occasionally",
+          "category": "database"
+        },
+        {
+          "name": "JIRA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "SVN",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Intellij IDEA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "SQL",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "JUnit",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "AssertJ",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Guava",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Mockito",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "title": "Senior Java Developer",
+          "start-date": "2012-05"
+        },
+        {
+          "title": "Java Developer Contributor",
+          "end-date": "2012-04"
+        }
+      ],
+      "employment": "full-time",
+      "company": {
+        "name": "Sabre",
+        "industry": "Airlines and airports",
+        "location": {
+          "city": "Krakow",
+          "country": "Poland"
+        }
+      },
+      "projects": [
+        {
+          "description": "Successfully finished a cost saving project before required deadline. The project was to migrate passengers data (30M+ profiles) and functionality from existing application running on proprietary HP NonStop Kernel servers."
+        }
+      ],
+      "start-date": "2011-07",
+      "end-date": "2014-02",
+      "skills": [
+        {
+          "name": "Java",
+          "detailed-name": "Java 1.6",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "XSLT",
+          "usage-frequency": "often",
+          "category": "library"
+        },
+        {
+          "name": "Guava",
+          "usage-frequency": "often",
+          "category": "library"
+        },
+        {
+          "name": "Maven",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Apache Wicket",
+          "usage-frequency": "often",
+          "category": "library"
+        },
+        {
+          "name": "Spring",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Hibernate",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "AspectJ",
+          "usage-frequency": "occasionally",
+          "category": "library"
+        },
+        {
+          "name": "JUnit",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Mockito",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Fest",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "MySQL",
+          "usage-frequency": "often",
+          "category": "database"
+        },
+        {
+          "name": "Java",
+          "detailed-name": "Java 1.7",
+          "usage-frequency": "day-to-day",
+          "start-date": "2013-09",
+          "category": "language"
+        },
+        {
+          "name": "MyBatis",
+          "usage-frequency": "often",
+          "category": "library"
+        },
+        {
+          "name": "Camel",
+          "usage-frequency": "often",
+          "category": "library"
+        },
+        {
+          "name": "XPath",
+          "usage-frequency": "often",
+          "category": "other"
+        },
+        {
+          "name": "XML",
+          "usage-frequency": "often",
+          "category": "other"
+        },
+        {
+          "name": "XML Schema",
+          "usage-frequency": "often",
+          "category": "other"
+        },
+        {
+          "name": "Oracle",
+          "usage-frequency": "often",
+          "category": "database"
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "title": "Java Developer"
+        }
+      ],
+      "employment": "full-time",
+      "company": {
+        "name": "Sylogic",
+        "industry": "Websites",
+        "location": {
+          "city": "Warszawa",
+          "country": "Poland"
+        }
+      },
+      "projects": [
+        {
+          "description": "I've been developing web applications for customers."
+        }
+      ],
+      "start-date": "2010-06",
+      "end-date": "2011-06",
+      "skills": [
+        {
+          "name": "Java",
+          "detailed-name": "Java 6",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Spring",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Hibernate",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "JSF",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Maven",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Apache Wicket",
+          "start-date": "2010-07",
+          "end-date": "2010-10",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Tiles",
+          "usage-frequency": "often",
+          "category": "library"
+        },
+        {
+          "name": "Intellij IDEA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "title": "Linux administrator"
+        }
+      ],
+      "employment": "part-time",
+      "company": {
+        "name": "ConSol* Consulting & Solutions Software Poland",
+        "industry": "CRM",
+        "location": {
+          "city": "Krakow",
+          "country": "Poland"
+        }
+      },
+      "projects": [
+        {
+          "description": "I've built and been maintaining infrastructure for a technology company which employed 30 developers."
+        }
+      ],
+      "start-date": "2006-01",
+      "end-date": "2009-07",
+      "skills": [
+        {
+          "name": "Linux",
+          "usage-frequency": "day-to-day",
+          "category": "os"
+        },
+        {
+          "name": "Bash",
+          "usage-frequency": "often",
+          "category": "language"
+        },
+        {
+          "name": "awk",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "Java",
+          "detailed-name": "Java 6",
+          "start-date": "2008-09",
+          "end-date": "2008-11",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Apache Wicket",
+          "start-date": "2008-09",
+          "end-date": "2008-11",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Spring",
+          "start-date": "2008-09",
+          "end-date": "2008-11",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Hibernate",
+          "start-date": "2008-09",
+          "end-date": "2008-11",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Maven",
+          "start-date": "2008-09",
+          "end-date": "2008-11",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Intellij IDEA",
+          "start-date": "2008-09",
+          "end-date": "2008-11",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        }
+      ]
+    }
+  ],
+  "learning": {
+    "education": [
+      {
+        "school-name": "Polish Air Force Academy in Dęblin",
+        "start-date": "2009",
+        "end-date": "2011",
+        "field-of-study": "Aviation and Cosmonautics"
+      },
+      {
+        "school-name": "AGH University of Science and Technology in Cracow",
+        "start-date": "2004",
+        "end-date": "2009",
+        "field-of-study": "Computer Science"
+      }
+    ],
+    "conferences-trainings": [
+      {
+        "name": "Uncle Bob's Advanced TDD",
+        "type": "course",
+        "date": "2015",
+        "duration": "3 days",
+        "www": "https://skillsmatter.com/courses"
+      },
+      {
+        "name": "GeeCon",
+        "type": "conference",
+        "date": "2014",
+        "duration": "3 days",
+        "www": "http://2014.geecon.org/"
+      },
+      {
+        "name": "JDD",
+        "type": "conference",
+        "date": "2013",
+        "duration": "2 days",
+        "www": "http://13.jdd.org.pl/en/"
+      },
+      {
+        "name": "Java Developers’ Day",
+        "type": "conference",
+        "date": "2008",
+        "duration": "1 day",
+        "www": "http://08.jdd.org.pl/lang-pref/en/"
+      },
+      {
+        "name": "Java Developers’ Day",
+        "type": "conference",
+        "date": "2006",
+        "duration": "1 day",
+        "www": "http://06.jdd.org.pl/?lp_lang_view=en"
+      }
+    ],
+    "other": "Currently learning Scala and Clojure."
+  }
+}
