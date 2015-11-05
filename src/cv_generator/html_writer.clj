@@ -40,21 +40,23 @@
   (map add-percentage-to-skills-in-category categories))
 
 (defn convert-to-data-map [cv filter filename]
-  {:cv-name    filename
-   :title      {:html        (str (:first-name cv) " " (:sur-name cv) " - " (:title (:summary cv)))
-                :first-part  (string/join " " (butlast (string/split (:title (:summary cv)) #" ")))
-                :second-part (last (string/split (:title (:summary cv)) #" "))}
-   :first-name (:first-name cv)
-   :sur-name   (:sur-name cv)
-   :contact    (:contact cv)
-   :years      {:first-start-date (first-start-date cv)
-                :first-year       (time/year (time-format/parse (first-start-date cv)))
-                :last-year        (time/year (time-format/parse (last-start-date cv)))
-                :years            (start-dates-and-years (start-dates-without-first-and-last cv))}
-   :summary    (:summary cv)
-   :categories (add-percentage-to-skills-in-categories (cv/skills-grouped-by-categories cv filter))
-   :experience (:experience cv)
-   :learning   (:learning cv)})
+  {:cv-name         filename
+   :title           {:html        (str (:first-name cv) " " (:sur-name cv) " - " (:title (:summary cv)))
+                     :first-part  (string/join " " (butlast (string/split (:title (:summary cv)) #" ")))
+                     :second-part (last (string/split (:title (:summary cv)) #" "))}
+   :first-name      (:first-name cv)
+   :sur-name        (:sur-name cv)
+   :contact         (:contact cv)
+   :years           {:first-start-date (first-start-date cv)
+                     :first-year       (time/year (time-format/parse (first-start-date cv)))
+                     :last-year        (time/year (time-format/parse (last-start-date cv)))
+                     :years            (start-dates-and-years (start-dates-without-first-and-last cv))}
+   :summary         (:summary cv)
+   :skills          (:skills cv)
+   :categories      (add-percentage-to-skills-in-categories (cv/skills-grouped-by-categories cv filter))
+   :experience      (:experience cv)
+   :recommendations (:recommendations cv)
+   :learning        (:learning cv)})
 
 (defn export-to-html [cv filter filename]
   (with-open [w (io/writer (str path "/target/" filename ".html"))]

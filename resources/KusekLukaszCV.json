@@ -11,7 +11,7 @@
   },
   "summary": {
     "title": "Senior Software Engineer",
-    "description": "Software engineer with over 5 years commercial experience (9 years including part-time jobs). My area of expertise is building highly available backend services on JVM platform (Scala, Java)."
+    "description": "Senior software engineer with over 5 years commercial experience (9 years including part-time jobs). My area of expertise is building highly available backend services on JVM platform (Scala, Java)."
   },
   "experience": [
     {
@@ -35,7 +35,11 @@
           "start-date": "2015-07"
         },
         {
-          "description": "I've worked on replatforming existing order management services to cloud based microservices.",
+          "description": "I've configured Continuous Delivery pipelines. I've done a research on implementation of BlueGreen Deployment and found major flaws in the early stage what allowed us to prepare architecture of our applications before it's released to production.",
+          "start-date": "2015-07"
+        },
+        {
+          "description": "I've worked on replatforming existing order management services to cloud based microservices. I've successfully introduced testing standards in the team (testing levels definitions - unit, component, system tests; naming convention). I've lead sessions to present importance of tests quality.",
           "end-date": "2015-07"
         }
       ],
@@ -72,6 +76,12 @@
           "end-date": "2015-07",
           "usage-frequency": "occasionally",
           "category": "database"
+        },
+        {
+          "name": "Python",
+          "end-date": "2015-07",
+          "usage-frequency": "occasionally",
+          "category": "language"
         },
         {
           "name": "Cucumber",
@@ -216,6 +226,9 @@
       "projects": [
         {
           "description": "Contractor at UBS Investment Bank. I've worked on capital commitment, automatic indication of interest generation and trade advertising applications at Cash Equities project."
+        },
+        {
+          "description": "I've introduced automatic system tests, enhanced logging that enabled tracking single requests, automatic build system using Gradle and Jenkins which improved speed and reliability of the process."
         }
       ],
       "start-date": "2014-03",
@@ -336,7 +349,19 @@
       },
       "projects": [
         {
-          "description": "Successfully finished a cost saving project before required deadline. The project was to migrate passengers data (30M+ profiles) and functionality from existing application running on proprietary HP NonStop Kernel servers."
+          "description": "Successfully finished a cost saving project before required deadline. Firstly as a team member, then since 2012 as a team leader. The project was the migration over 30 major airlines between the legacy system (based on HP NonStop Kernel) to the current system. The project was very challenging due to multiple dependencies (Sabre's internal systems, customer's systems), no downtime requirement, big amount of user data (data of 30M+ passengers of airlines), pressure of time, little documentation of the legacy system and all of it's features."
+        },
+        {
+          "description": "Developed a library for comparing XMLs. What makes this library different from the other libraries of this type is the possibility of comparing XMLs ignoring the sequence of the elements of the same type. This is very useful if the elements of the same type in an XML represent elements of a set, and the sequence of the elements returned by the system is irrelevant. I've narrowed the problem to an assignment problem and used one of bipartite graph algorithms to solve the root problem."
+        },
+        {
+          "description": "Introduced multiple improvements like: automated configuration diffs run by Jenkins, a shared configuration to omit files duplicates, best practices developers meetings, an usage of a pre tested commit, a local SVN slave to speed up read only operations, a global Maven's parent POM for dependencies management and plugins management, an unified configuration API as an abstraction over a configuration source (file, DB, JMX), RESTful monitoring application giving possibility for QAs to test aspects which were not testable before."
+        },
+        {
+          "description": "Developed a fully functional application which integrates traveler's Facebook account with a profile stored in Sabre's Customer Profiles. It was done during the HackDay 2013 contest. The application was written in a Clojure."
+        },
+        {
+          "description": "Successfully developed within 24 hours a 'proof of concept' application for the HackDay 2012 contest. The idea of the project was to introduce the idea of social media to the world of aviation. The application was written in a Clojure which none of team members didn't know before the contest. The project won the audience award. As a followup of the contest the application has been presented to Sabre's marketing team and it occurred that one of the major Sabre's customer is interested in buying the application."
         }
       ],
       "start-date": "2011-07",
@@ -416,7 +441,7 @@
           "category": "library"
         },
         {
-          "name": "Camel",
+          "name": "Apache Camel",
           "usage-frequency": "often",
           "category": "library"
         },
@@ -439,6 +464,13 @@
           "name": "Oracle",
           "usage-frequency": "often",
           "category": "database"
+        },
+        {
+          "name": "Clojure",
+          "usage-frequency": "day-to-day",
+          "start-date": "2013-06",
+          "end-date": "2013-07",
+          "category": "language"
         }
       ]
     },
@@ -459,7 +491,7 @@
       },
       "projects": [
         {
-          "description": "I've been developing web applications for customers."
+          "description": "I've been developing web applications for customers. I took part of whole process of creating application (gathering requirements, analysis, designing, developing and deployment)"
         }
       ],
       "start-date": "2010-06",
@@ -528,6 +560,12 @@
       "projects": [
         {
           "description": "I've built and been maintaining infrastructure for a technology company which employed 30 developers."
+        },
+        {
+          "description": "Developed income optimizer for hospitals. Successfully deployed at the hospital in Sucha Beskidzka."
+        },
+        {
+          "description": "Researched and developed a 'proof of concept' application WebCTI - Asterisk / ConSol* CM in a single person R&D project."
         }
       ],
       "start-date": "2006-01",
@@ -594,14 +632,20 @@
       ]
     }
   ],
+  "recommendations": [
+    {
+      "name": "Szymon Paluchowski",
+      "date": "April 7, 2013",
+      "recommendation": "Working with Łukasz is a real pleasure. Extreme attention to details, always willing to help others, very fast at providing reliable development results. His technical knowledge is very good, allowing to propose the best solutions for solving problems. He's one of the best developers I've met."
+    },
+    {
+      "name": "Maciej Hamiga",
+      "date": "January 6, 2013",
+      "recommendation": "Łukasz has proven to be one of the most valuable team members, with his wide technical knowledge, willingness to learn and - especially - unbelievable attention to details. Łukasz always aimed for the complete, perfect solution to a problem - half-measures never satisfied him. I would gladly work with him again."
+    }
+  ],
   "learning": {
     "education": [
-      {
-        "school-name": "Polish Air Force Academy in Dęblin",
-        "start-date": "2009",
-        "end-date": "2011",
-        "field-of-study": "Aviation and Cosmonautics"
-      },
       {
         "school-name": "AGH University of Science and Technology in Cracow",
         "start-date": "2004",

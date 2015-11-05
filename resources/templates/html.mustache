@@ -101,9 +101,15 @@
 							<h3>{{title}}</h3>
                             {{/positions}}
 							<h5>{{company.name}}, {{company.location.city}}, {{company.location.country}}</h5>
+							<p><em>Industry: {{company.industry}}</em></p>
                             {{#projects}}
 							<p>{{description}}</p>
                             {{/projects}}
+                            <p><em>Technologies: </em>
+                            {{#skills}}
+                                {{name}},
+                            {{/skills}}
+                            </p>
 						</div>
 						<div class="clear">&nbsp;</div>
 					</div>
@@ -135,7 +141,7 @@
 		<div id="sidebarContent" class="grid_8">
 			<!-- start of profile info (sidebar) -->			
 			<div id="profile" class="sidebarPanel">
-				<h4>{{summary.title}}</h4>
+				<h4>profile</h4>
 				<p>{{summary.description}}</p>
 			</div>
 			<!-- // end of profile info (sidebar) -->
@@ -199,6 +205,18 @@
 				</p>
 			</div>
 			<!-- // end of cv info (sidebar) -->
+            <!-- start of recommendations info (sidebar) -->
+            <div id="recommendations" class="sidebarPanel">
+                <h4>recommendations</h4>
+
+                {{#recommendations}}
+                <blockquote>
+                    <p>"{{recommendation}}"</p>
+                    <footer>{{name}}, {{date}}</footer>
+                </blockquote>
+                {{/recommendations}}
+            </div>
+            <!-- // end of recommendations info (sidebar) -->
 		</div>
 		
 	</div>	

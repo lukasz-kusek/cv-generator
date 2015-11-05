@@ -1,55 +1,66 @@
-= {{name}}
+{{summary.title}}
+~~~~~~~~~~~~~~~~~~~~~~~~~
+{{name}}
 
-    Phone: {{contact.phone}}
-    Email: {{contact.email}}
-    GitHub: {{contact.github}}
-    LinkedIn: {{contact.linkedin}}
-    Website: {{contact.website}}
-    Address: {{contact.address}}
+Phone: {{contact.phone}}
+Email: {{contact.email}}
+GitHub: {{contact.github}}
+LinkedIn: {{contact.linkedin}}
+Website: {{contact.website}}
+Address: {{contact.address}}
+
+PROFILE
+========================================================================================================================
+{{summary.description}}
 
 
-== {{summary.title}}
+SKILLS
+========================================================================================================================
+{{#categories}}
+{{name}}
+~~~~~~~~~~~~~~~~~~~~~~~~~
+{{#skills}}{{name}}, {{/skills}}
 
-    {{summary.description}}
+{{/categories}}
 
-
-=== Skills
-
-    {{#categories}}
-    ==== {{name}}
-        {{#skills}}{{name}}, {{/skills}}
-
-    {{/categories}}
-
-== Experience
-
+EXPERIENCE
+========================================================================================================================
 {{#experience}}
-    {{#positions}}
-    === {{title}} ({{start-date}} - {{end-date}}), {{company.name}}, {{company.location.city}}, {{company.location.country}}
-    {{/positions}}
-    {{#projects}}
-        * {{description}}
-    {{/projects}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{{#positions}}
+{{title}} ({{start-date}} - {{end-date}}), {{company.name}} ({{company.industry}}), {{company.location.city}}, {{company.location.country}}
+{{/positions}}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{{#projects}}
+* {{description}}
+{{/projects}}
+
+Technologies: {{#skills}}{{name}}, {{/skills}}
 
 {{/experience}}
 
-== Learning
+EDUCATION
+========================================================================================================================
+{{#learning.education}}
+{{school-name}} ({{start-date}} - {{end-date}}), {{field-of-study}}
 
-    === Education
+{{/learning.education}}
 
-    {{#learning.education}}
-        {{school-name}} ({{start-date}} - {{end-date}}), {{field-of-study}}
+RECOMMENDATIONS
+========================================================================================================================
+{{#recommendations}}
+"{{recommendation}}"
+{{name}}, {{date}}
 
-    {{/learning.education}}
+{{/recommendations}}
 
-    === Conferences / trainings
+CONFERENCES / TRAININGS
+========================================================================================================================
+{{#learning.conferences-trainings}}
+- {{name}} ({{date}})
+{{/learning.conferences-trainings}}
 
-    {{#learning.conferences-trainings}}
-        {{name}} ({{date}})
-
-    {{/learning.conferences-trainings}}
-
-    === Other
-
-        {{learning.other}}
+OTHER
+========================================================================================================================
+{{learning.other}}
 

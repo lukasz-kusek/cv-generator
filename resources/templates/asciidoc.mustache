@@ -23,13 +23,22 @@
 
 {{#experience}}
 {{#positions}}
-=== {{title}} ({{start-date}} - {{end-date}}), {{company.name}}, {{company.location.city}}, {{company.location.country}}
+=== {{title}} ({{start-date}} - {{end-date}}), {{company.name}} ({{company.industry}}), {{company.location.city}}, {{company.location.country}}
 {{/positions}}
 {{#projects}}
 * {{description}}
 {{/projects}}
 
+Technologies: {{#skills}}{{name}}, {{/skills}}
+
 {{/experience}}
+
+== Recommendations
+{{#recommendations}}
+"{{recommendation}}"
+{{name}}, {{date}}
+
+{{/recommendations}}
 
 == Learning
 

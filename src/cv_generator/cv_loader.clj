@@ -68,12 +68,12 @@
         end-date-1 (:end-date map1)
         end-date-2 (:end-date map2)
         end-date (if (time/after? end-date-1 end-date-2) end-date-1 end-date-2)]
-    {:name (:name map1)
+    {:name          (:name map1)
      :detailed-name (:detailed-name map1)
-     :start-date start-date
-     :end-date end-date
-     :points (+ (:points map1) (:points map2))
-     :category (:category map1)}))
+     :start-date    start-date
+     :end-date      end-date
+     :points        (+ (:points map1) (:points map2))
+     :category      (:category map1)}))
 
 (defn sum-points [skill]
   (reduce merge-values skill))
@@ -108,13 +108,18 @@
 (defn filter-skills [skills skills-to-display]
   (filter #(display? % skills-to-display) skills))
 
+(defn compare-names [name1 name2]
+  (compare (:name name1) (:name name2)))
+
 (defn skills-grouped-by-categories [cv filter]
-  (map to-category-map (seq (group-by-category (filter-skills (extract-skills cv) filter)))))
+  (sort compare-names (map to-category-map (seq (group-by-category (filter-skills (extract-skills cv) filter))))))
 
 (defn convert-to-data-map [cv filter]
-  {:name       (str (:first-name cv) " " (:sur-name cv))
-   :contact    (:contact cv)
-   :summary    (:summary cv)
-   :categories (skills-grouped-by-categories cv filter)
-   :experience (:experience cv)
-   :learning   (:learning cv)})
+  {:name            (str (:first-name cv) " " (:sur-name cv))
+   :contact         (:contact cv)
+   :summary         (:summary cv)
+   :skills          (:skills cv)
+   :categories      (skills-grouped-by-categories cv filter)
+   :experience      (:experience cv)
+   :recommendations (:recommendations cv)
+   :learning        (:learning cv)})

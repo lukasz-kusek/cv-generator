@@ -14,12 +14,6 @@ div#sidebarContent { padding-top: 0; margin-top: -15px; }
 /* header reset settings */
 div#header{ position: static; z-index: 0; background: none ; overflow: visible; left: 0; margin-left: 0;}
 
-.skill_list ul li { display: inline; }
-
-.skill_list ul { width: 310px; margin-right: 0; }
-
-.skill_set { display: none; }
-
 #cv { display: none; }
 
 

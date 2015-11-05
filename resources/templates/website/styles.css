@@ -67,9 +67,10 @@ div#content { border-right: 1px solid #dadada; margin-left: 4px; margin-bottom: 
 div.resumeEntry { padding-top: 25px; clear: both; }
 div.resumeEntry div.when  { text-align: right; margin-left: -5px; margin-right: 15px; }
 div.resumeEntry div.grid_3 p { color:#f54cab; font-size: 20px;font-style: italic; font-weight: 100;}
-div.resumeEntry div em { color:#bbbbbb; font-size: 16px;}
+div.resumeEntry div.description em { margin-bottom: 10px; font-size: 14px; }
+div.resumeEntry div em { color:#bbbbbb; font-size: 16px; }
 div.resumeEntry div h3 { color: #555555; font-size: 24px; font-style: italic; margin-bottom: 2px; }
-div.resumeEntry div h5 { color: #34beee; font-size: 16px; margin-bottom: 10px; }
+div.resumeEntry div h5 { color: #34beee; font-size: 16px; }
 div.description > * { margin-left: 8px; }
 
 
@@ -129,6 +130,10 @@ input:focus, textarea:focus { background-color: #f9f9f9; }
 div.formBox p.formButton { margin: 0; line-height: 35px; border-top-color: #dadada; padding: 0; }
 .button { border: 0; height: 45px; line-height: 35px; background-color: #f6f6f6; margin-top: 3px; width: 100%; float: none; font: inherit; margin: 0; color: #34beee; }
 .button:hover { background-color: #34beee; color: white;}
+
+div#recommendations blockquote { margin-bottom: 25px; }
+div#recommendations blockquote p { margin-bottom: 5px; font-style: italic; }
+div#recommendations blockquote footer { font-size: 12px; }
 
 /* BR */
 br.left { clear: left; }
