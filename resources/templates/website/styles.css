@@ -51,7 +51,7 @@ div#topBar div#topBarRight a  { color: #f54cab; font-style: normal; }
 
 /* Email, Phone and Name part settings */
 div#information div#info { text-align: right; height: 181px; border-right: 1px solid #dadada; margin-left: 4px;}
-div#information div#info h2 { font-size: 48px; line-height: 50px; margin: 40px; color: #555555; }
+div#information div#info h2 { font-size: 42px; line-height: 44px; margin: 40px; color: #555555; }
 div#information div#info h2 em { color: #acacac; }
 div#information div#name h1 { font-size: 68px; line-height: 56px; font-weight: 600; text-transform: uppercase; margin: 40px 0 0 40px;}
 div#information div#name h1 a  { text-decoration: none; color: #555555;}
