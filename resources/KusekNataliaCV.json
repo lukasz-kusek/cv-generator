@@ -1,0 +1,183 @@
+{
+  "first-name": "Natalia",
+  "sur-name": "Kusek",
+  "contact": {
+    "phone": "(44) 7990 486260",
+    "email": "natalia-cv@kusek.info",
+    "linkedin": "",
+    "website": "http://natalia.kusek.info",
+    "address": "Harpenden, UK"
+  },
+  "summary": {
+    "title": "Land Surveyor/GIS Technician",
+    "description": ""
+  },
+  "experience": [
+    {
+      "positions": [
+        {
+          "title": "GIS Technician"
+        }
+      ],
+      "employment": "full-time",
+      "company": {
+        "name": "Cyient",
+        "industry": "Telecommunication",
+        "location": {
+          "city": "Aylesbury",
+          "country": "United Kingdom"
+        }
+      },
+      "projects": [
+        {
+          "description": ""
+        }
+      ],
+      "start-date": "2015-11",
+      "skills": [
+        {
+          "name": "ArcGIS",
+          "usage-frequency": "often",
+          "category": "GIS"
+        },
+        {
+          "name": "Microsoft Excel",
+          "usage-frequency": "day-to-day",
+          "category": "Office"
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "title": "GIS Technician Intern"
+        }
+      ],
+      "employment": "full-time",
+      "company": {
+        "name": "GISON",
+        "industry": "",
+        "location": {
+          "city": "Krakow",
+          "country": "Poland"
+        }
+      },
+      "projects": [
+        {
+          "description": ""
+        }
+      ],
+      "start-date": "2014-11",
+      "end-date": "2014-12",
+      "skills": [
+        {
+          "name": "QGIS",
+          "usage-frequency": "day-to-day",
+          "category": "GIS"
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "title": "Land Surveyor Assistant"
+        }
+      ],
+      "employment": "part-time",
+      "company": {
+        "name": "GEOMAP",
+        "industry": "Land surveying",
+        "location": {
+          "city": "Krakow",
+          "country": "Poland"
+        }
+      },
+      "projects": [
+        {
+          "description": ""
+        }
+      ],
+      "start-date": "2011-11",
+      "end-date": "2014-10",
+      "skills": [
+        {
+          "name": "Microsoft Word",
+          "usage-frequency": "day-to-day",
+          "category": "Office"
+        },
+        {
+          "name": "WinKalk",
+          "usage-frequency": "day-to-day",
+          "category": "Land surveying"
+        },
+        {
+          "name": "MikroMap",
+          "usage-frequency": "day-to-day",
+          "category": "Land surveying"
+        },
+        {
+          "name": "Ewmapa",
+          "usage-frequency": "day-to-day",
+          "category": "Land surveying"
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "title": "Land Surveyor Assistant"
+        }
+      ],
+      "employment": "full-time",
+      "company": {
+        "name": "GEOPROF",
+        "industry": "Land surveying",
+        "location": {
+          "city": "Krakow",
+          "country": "Poland"
+        }
+      },
+      "projects": [
+        {
+          "description": ""
+        }
+      ],
+      "start-date": "2010-06",
+      "end-date": "2010-08",
+      "skills": [
+        {
+          "name": "Microstation",
+          "usage-frequency": "day-to-day",
+          "category": "CAD"
+        }
+      ]
+    }
+  ],
+  "learning": {
+    "education": [
+      {
+        "school-name": "University of Agriculture in Krakow",
+        "start-date": "2006",
+        "end-date": "2011",
+        "field-of-study": "Agricultural Land Surveying and Property Appraisal"
+      }
+    ],
+    "conferences-trainings": [
+      {
+        "name": "Programming for Everybody (Getting Started with Python)",
+        "type": "course",
+        "date": "2015",
+        "duration": "1 month",
+        "www": "https://www.coursera.org/learn/python"
+      },
+      {
+        "name": "Python Data Structures",
+        "type": "course",
+        "date": "2015",
+        "duration": "1 month",
+        "www": "https://www.coursera.org/learn/python-data"
+      }
+    ],
+    "other": "Currently learning ArcGIS and Python."
+  }
+}
