@@ -4,7 +4,8 @@
   (:use [cv-generator.asciidoc-writer]
         [cv-generator.html-writer]
         [cv-generator.markdown-writer]
-        [cv-generator.txt-writer]))
+        [cv-generator.txt-writer]
+        [cv-generator.docx-writer]))
 
 (defn generate-cvs [filename]
   (let [cv (cv/load-cv filename)
@@ -12,7 +13,9 @@
     (export-to-asciidoc cv filter filename)
     (export-to-html cv filter filename)
     (export-to-markdown cv filter filename)
-    (export-to-txt cv filter filename))
+    (export-to-txt cv filter filename)
+    (export-to-docx cv filter filename))
   )
 
+(generate-cvs "KusekNataliaCV")
 (generate-cvs "KusekLukaszCV")

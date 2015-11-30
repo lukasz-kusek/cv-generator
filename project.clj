@@ -8,6 +8,7 @@
                  [cheshire "5.5.0"]
                  [stencil "0.5.0"]
                  [org.clojure/math.numeric-tower "0.0.4"]
+                 [me.raynes/fs "1.4.6"]
                  ]
   :main ^:skip-aot cv-generator.core
   :target-path "target/%s"
