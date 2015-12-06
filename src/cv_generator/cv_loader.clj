@@ -33,7 +33,7 @@
     (if (nil? value) default (to-date-time value))))
 
 (defn points-for-month [number-of-months]
-  (math/expt 2 (- (/ number-of-months 24))))
+  (math/expt 2 (- (/ number-of-months 12))))
 
 (defn calculate-points [factor start-inclusive end-exclusive]
   (* factor (reduce + (map points-for-month (range start-inclusive end-exclusive)))))

@@ -146,7 +146,7 @@
           "category": "tool"
         },
         {
-          "name": "Thoughtworks Go",
+          "name": "GO",
           "usage-frequency": "day-to-day",
           "category": "tool"
         },
@@ -191,7 +191,7 @@
         {
           "name": "Spray",
           "start-date": "2015-07",
-          "usage-frequency": "occasionally",
+          "usage-frequency": "often",
           "category": "library"
         },
         {
