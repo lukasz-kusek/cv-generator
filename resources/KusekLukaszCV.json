@@ -11,7 +11,7 @@
   },
   "summary": {
     "title": "Senior Software Engineer",
-    "description": "Senior software engineer with over 5 years commercial experience (9 years including part-time jobs). My area of expertise is building highly available backend services on JVM platform (Scala, Java)."
+    "description": "Senior software engineer with over 5 years commercial experience (9 years including part-time jobs). My area of expertise is building highly available backend services on JVM platform (Scala - 1/2 year, Java - 5 years)."
   },
   "experience": [
     {
@@ -31,7 +31,7 @@
       },
       "projects": [
         {
-          "description": "I'm working in an agile team creating microservices providing availability of products and allowing to allocate products for customers. Services are designed to be highly available (akka cluster, AWS, blue-green deployment), highly responsible (actor model) and low latency (in-memory cache with akka sharding). Services are based on CQRS and eventsoursing.",
+          "description": "I work in an agile team creating microservices providing real time availability logic to inform shoppers what is in and out of stock in milliseconds. Services are designed to be highly available (akka cluster, AWS, blue-green deployment), highly responsible (actor model) and low latency (in-memory cache with akka sharding). Services are based on CQRS and event sourcing.",
           "start-date": "2015-07"
         },
         {
@@ -146,7 +146,7 @@
           "category": "tool"
         },
         {
-          "name": "GO",
+          "name": "Thoughtworks Go",
           "usage-frequency": "day-to-day",
           "category": "tool"
         },
@@ -225,7 +225,7 @@
       },
       "projects": [
         {
-          "description": "Contractor at UBS Investment Bank. I've worked on capital commitment, automatic indication of interest generation and trade advertising applications at Cash Equities project."
+          "description": "Contractor at UBS Investment Bank. I worked on capital commitment, automatic indication of interest generation and trade advertising applications at Cash Equities project."
         },
         {
           "description": "I've introduced automatic system tests, enhanced logging that enabled tracking single requests, automatic build system using Gradle and Jenkins which improved speed and reliability of the process."
