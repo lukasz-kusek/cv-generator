@@ -25,6 +25,7 @@
 	<!--[if lte IE 7]>
 		<link rel="stylesheet" type="text/css" href="./website/ie.css" media="all" />
 	<![endif]-->
+    <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
 
 </head>
 
@@ -175,6 +176,16 @@
                 {{/categories}}
 
 				<div class="clear">&nbsp;</div>
+
+                <div id="legend">
+                    <p>Bars are calculated using:</p>
+                    <p lang="latex">factor * \sum_{i = end}^{start} 2^{-\frac{i}{12}}</p>
+                    <p>where
+                        <em>factor</em> - depends on usage frequency (1 - day-to-day, 0.75 - often, 0.5 - occasionally),
+                        <em>start</em> - months since first usage
+                        <em>end</em> - months since last usage
+                    </p>
+                </div>
 			</div>
 			<!-- // end of skills info (sidebar) -->
 			<!-- start of education info (sidebar) -->

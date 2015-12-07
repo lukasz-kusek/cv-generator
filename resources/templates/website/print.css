@@ -15,5 +15,6 @@ div#sidebarContent { padding-top: 0; margin-top: -15px; }
 div#header{ position: static; z-index: 0; background: none ; overflow: visible; left: 0; margin-left: 0;}
 
 #cv { display: none; }
+#legend { display: none; }
 
 
