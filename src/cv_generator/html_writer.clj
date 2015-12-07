@@ -27,17 +27,23 @@
 (defn start-dates-and-years [start-dates]
   (map start-date-and-year start-dates))
 
-(defn add-percentage [skills]
-  (let [max-rank (apply max (map #(:points %) skills))]
-    (map #(merge % {:percentage (* 100 (/ (:points %) max-rank))}) skills))
-  )
+(defn add-percentage [skills max-rank]
+  (map #(merge % {:percentage (* 100 (/ (:points %) max-rank))}) skills))
 
-(defn add-percentage-to-skills-in-category [category]
+(defn add-percentage-to-skills-in-category [category max-rank]
   {:name   (:name category)
-   :skills (add-percentage (:skills category))})
+   :skills (add-percentage (:skills category) max-rank)})
+
+(defn max-rank-in-category [category]
+  (apply max (map #(:points %) (:skills category))))
+
+(defn max-rank-in-categories [categories]
+  (apply max (map #(max-rank-in-category %) categories)))
 
 (defn add-percentage-to-skills-in-categories [categories]
-  (map add-percentage-to-skills-in-category categories))
+  (let [max-rank (max-rank-in-categories categories)]
+    (println max-rank)
+    (map #(add-percentage-to-skills-in-category % max-rank) categories)))
 
 (defn convert-to-data-map [cv filter filename]
   {:cv-name         filename
