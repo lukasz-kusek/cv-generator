@@ -10,14 +10,14 @@
     "address": "Harpenden, UK"
   },
   "summary": {
-    "title": "Senior Software Engineer",
+    "title": "Scala Engineer (Contractor)",
     "description": "Senior software engineer with over 5 years commercial experience (9 years including part-time jobs). My area of expertise is building highly available backend services on JVM platform (Scala - 1/2 year, Java - 5 years)."
   },
   "experience": [
     {
       "positions": [
         {
-          "title": "Senior Software Engineer"
+          "title": "Senior Software Engineer (Scala)"
         }
       ],
       "employment": "full-time",
@@ -31,19 +31,16 @@
       },
       "projects": [
         {
-          "description": "I work in an agile team creating microservices providing real time availability logic to inform shoppers what is in and out of stock in milliseconds. Services are designed to be highly available (akka cluster, AWS, blue-green deployment), highly responsible (actor model) and low latency (in-memory cache with akka sharding). Services are based on CQRS and event sourcing.",
-          "start-date": "2015-07"
+          "description": "I work in an agile team creating microservices providing real time availability logic to inform shoppers what is in and out of stock in milliseconds. Services are designed to be highly available (akka cluster, AWS, blue-green deployment), highly responsible (actor model) and low latency (in-memory cache with akka sharding). Services are based on CQRS and event sourcing."
         },
         {
-          "description": "I've configured Continuous Delivery pipelines. I've done a research on implementation of BlueGreen Deployment and found major flaws in the early stage what allowed us to prepare architecture of our applications before it's released to production.",
-          "start-date": "2015-07"
+          "description": "I've configured Continuous Delivery pipelines. I've done a research on implementation of BlueGreen Deployment and found major flaws in the early stage what allowed us to prepare architecture of our applications before it's released to production."
         },
         {
-          "description": "I've worked on replatforming existing order management services to cloud based microservices. I've successfully introduced testing standards in the team (testing levels definitions - unit, component, system tests; naming convention). I've lead sessions to present importance of tests quality.",
-          "end-date": "2015-07"
+          "description": "Successfully migrated production and integration tests environments to new AWS account before given deadline."
         }
       ],
-      "start-date": "2015-02",
+      "start-date": "2015-07",
       "skills": [
         {
           "name": "Microservices",
@@ -63,61 +60,6 @@
         {
           "name": "Swagger",
           "usage-frequency": "occasionally",
-          "category": "tool"
-        },
-        {
-          "name": "Hystrix",
-          "end-date": "2015-07",
-          "usage-frequency": "occasionally",
-          "category": "library"
-        },
-        {
-          "name": "PostgreSQL",
-          "end-date": "2015-07",
-          "usage-frequency": "occasionally",
-          "category": "database"
-        },
-        {
-          "name": "Python",
-          "end-date": "2015-07",
-          "usage-frequency": "occasionally",
-          "category": "language"
-        },
-        {
-          "name": "Cucumber",
-          "end-date": "2015-07",
-          "usage-frequency": "often",
-          "category": "library"
-        },
-        {
-          "name": "Mockito",
-          "end-date": "2015-07",
-          "usage-frequency": "day-to-day",
-          "category": "library"
-        },
-        {
-          "name": "AssertJ",
-          "end-date": "2015-07",
-          "usage-frequency": "day-to-day",
-          "category": "library"
-        },
-        {
-          "name": "JUnit",
-          "end-date": "2015-07",
-          "usage-frequency": "day-to-day",
-          "category": "library"
-        },
-        {
-          "name": "Java",
-          "detailed-name": "Java 8",
-          "end-date": "2015-07",
-          "usage-frequency": "day-to-day",
-          "category": "language"
-        },
-        {
-          "name": "Jenkins",
-          "end-date": "2015-07",
-          "usage-frequency": "day-to-day",
           "category": "tool"
         },
         {
@@ -172,37 +114,31 @@
         },
         {
           "name": "Scala",
-          "start-date": "2015-07",
           "usage-frequency": "day-to-day",
           "category": "language"
         },
         {
           "name": "ScalaTest",
-          "start-date": "2015-07",
           "usage-frequency": "day-to-day",
           "category": "library"
         },
         {
           "name": "JIRA",
-          "start-date": "2015-07",
           "usage-frequency": "day-to-day",
           "category": "tool"
         },
         {
           "name": "Spray",
-          "start-date": "2015-07",
           "usage-frequency": "often",
           "category": "library"
         },
         {
           "name": "Akka",
-          "start-date": "2015-07",
           "usage-frequency": "day-to-day",
           "category": "library"
         },
         {
           "name": "Event Sourcing",
-          "start-date": "2015-07",
           "usage-frequency": "often",
           "category": "other"
         }
@@ -211,7 +147,148 @@
     {
       "positions": [
         {
-          "title": "Senior Software Developer"
+          "title": "Senior Software Engineer (Java)"
+        }
+      ],
+      "employment": "full-time",
+      "company": {
+        "name": "Ocado Technology",
+        "industry": "Online grocery retail",
+        "location": {
+          "city": "Hatfield",
+          "country": "United Kingdom"
+        }
+      },
+      "projects": [
+        {
+          "description": "I've worked on replatforming existing order management services to cloud based microservices. I've successfully introduced testing standards in the team (testing levels definitions - unit, component, system tests; naming convention). I've lead sessions to present importance of tests quality."
+        }
+      ],
+      "start-date": "2015-02",
+      "end-date": "2015-07",
+      "skills": [
+        {
+          "name": "Microservices",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "JSON",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "REST",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Swagger",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "Hystrix",
+          "usage-frequency": "occasionally",
+          "category": "library"
+        },
+        {
+          "name": "PostgreSQL",
+          "usage-frequency": "occasionally",
+          "category": "database"
+        },
+        {
+          "name": "Python",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "Cucumber",
+          "usage-frequency": "often",
+          "category": "library"
+        },
+        {
+          "name": "Mockito",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "AssertJ",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "JUnit",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Java",
+          "detailed-name": "Java 8",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Jenkins",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Guice",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "DynamoDB",
+          "usage-frequency": "occasionally",
+          "category": "database"
+        },
+        {
+          "name": "Crucible",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Kibana",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Logstash",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "GO",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "AWS",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Git",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Intellij IDEA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Maven",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "title": "Senior Software Developer (Java) - contractor"
         }
       ],
       "employment": "full-time",
@@ -331,10 +408,15 @@
       "positions": [
         {
           "title": "Senior Java Developer",
-          "start-date": "2012-05"
+          "start-date": "2013-05"
         },
         {
-          "title": "Java Developer Contributor",
+          "title": "Senior Java Developer - contractor",
+          "start-date": "2012-05",
+          "end-date": "2013-05"
+        },
+        {
+          "title": "Java Developer - contractor",
           "end-date": "2012-04"
         }
       ],
