@@ -13,6 +13,7 @@
     "title": "Scala Engineer (Contractor)",
     "description": "Senior software engineer with over 5 years commercial experience (9 years including part-time jobs). My area of expertise is building highly available backend services on JVM platform (Scala - 1/2 year, Java - 5 years)."
   },
+  "availability": "May 2016",
   "experience": [
     {
       "positions": [
@@ -31,10 +32,19 @@
       },
       "projects": [
         {
-          "description": "I work in an agile team creating microservices providing real time availability logic to inform shoppers what is in and out of stock in milliseconds. Services are designed to be highly available (akka cluster, AWS, blue-green deployment), highly responsible (actor model) and low latency (in-memory cache with akka sharding). Services are based on CQRS and event sourcing."
+          "description": "I work on low latency services (<10ms) that informs shoppers what is in and out of stock. Services are designed to be highly available and scalable (akka cluster, AWS, blue-green deployment), highly responsible (actor model) and low latency (in-memory cache with akka sharding). Services are based on CQRS and event sourcing."
         },
         {
-          "description": "I've configured Continuous Delivery pipelines. I've done a research on implementation of BlueGreen Deployment and found major flaws in the early stage what allowed us to prepare architecture of our applications before it's released to production."
+          "description": "Introduced idea of team goal which helped us prioritize tasks and have common vision of our services."
+        },
+        {
+          "description": "Proposed adjustments to our sprint (pair programming, one story at a time) that helped us finishing everything that was planned for the sprint."
+        },
+        {
+          "description": "Created two OAuth2 libraries (non-blocking client with caching capabilities and testing library) that are widely used across teams at Ocado Technology. Libraries are shared as internal open source projects."
+        },
+        {
+          "description": "Configured Continuous Delivery pipelines. Did a research on implementation of BlueGreen Deployment and found major flaws in the early stage what allowed us to prepare architecture of our applications before it's released to production."
         },
         {
           "description": "Successfully migrated production and integration tests environments to new AWS account before given deadline."
@@ -42,6 +52,36 @@
       ],
       "start-date": "2015-07",
       "skills": [
+        {
+          "name": "Scala",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Akka",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Spray",
+          "usage-frequency": "often",
+          "category": "library"
+        },
+        {
+          "name": "AWS",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Git",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Event Sourcing",
+          "usage-frequency": "often",
+          "category": "other"
+        },
         {
           "name": "Microservices",
           "usage-frequency": "day-to-day",
@@ -63,6 +103,16 @@
           "category": "tool"
         },
         {
+          "name": "ScalaTest",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "JIRA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
           "name": "Guice",
           "usage-frequency": "day-to-day",
           "category": "library"
@@ -71,6 +121,11 @@
           "name": "DynamoDB",
           "usage-frequency": "occasionally",
           "category": "database"
+        },
+        {
+          "name": "OAuth2",
+          "usage-frequency": "often",
+          "category": "other"
         },
         {
           "name": "Crucible",
@@ -93,16 +148,6 @@
           "category": "tool"
         },
         {
-          "name": "AWS",
-          "usage-frequency": "often",
-          "category": "tool"
-        },
-        {
-          "name": "Git",
-          "usage-frequency": "day-to-day",
-          "category": "tool"
-        },
-        {
           "name": "Intellij IDEA",
           "usage-frequency": "day-to-day",
           "category": "tool"
@@ -111,36 +156,6 @@
           "name": "Maven",
           "usage-frequency": "day-to-day",
           "category": "tool"
-        },
-        {
-          "name": "Scala",
-          "usage-frequency": "day-to-day",
-          "category": "language"
-        },
-        {
-          "name": "ScalaTest",
-          "usage-frequency": "day-to-day",
-          "category": "library"
-        },
-        {
-          "name": "JIRA",
-          "usage-frequency": "day-to-day",
-          "category": "tool"
-        },
-        {
-          "name": "Spray",
-          "usage-frequency": "often",
-          "category": "library"
-        },
-        {
-          "name": "Akka",
-          "usage-frequency": "day-to-day",
-          "category": "library"
-        },
-        {
-          "name": "Event Sourcing",
-          "usage-frequency": "often",
-          "category": "other"
         }
       ]
     },
@@ -161,12 +176,34 @@
       },
       "projects": [
         {
-          "description": "I've worked on replatforming existing order management services to cloud based microservices. I've successfully introduced testing standards in the team (testing levels definitions - unit, component, system tests; naming convention). I've lead sessions to present importance of tests quality."
+          "description": "I've worked on replatforming existing order management services to cloud based microservices."
+        },
+        {
+          "description": "Successfully introduced testing standards in the team (testing levels definitions - unit, component, system tests; naming convention)."
+        },
+        {
+          "description": "Lead sessions to present importance of tests quality."
         }
       ],
       "start-date": "2015-02",
       "end-date": "2015-07",
       "skills": [
+        {
+          "name": "Java",
+          "detailed-name": "Java 8",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "AWS",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Git",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
         {
           "name": "Microservices",
           "usage-frequency": "day-to-day",
@@ -203,6 +240,11 @@
           "category": "language"
         },
         {
+          "name": "OAuth2",
+          "usage-frequency": "occasionally",
+          "category": "other"
+        },
+        {
           "name": "Cucumber",
           "usage-frequency": "often",
           "category": "library"
@@ -221,12 +263,6 @@
           "name": "JUnit",
           "usage-frequency": "day-to-day",
           "category": "library"
-        },
-        {
-          "name": "Java",
-          "detailed-name": "Java 8",
-          "usage-frequency": "day-to-day",
-          "category": "language"
         },
         {
           "name": "Jenkins",
@@ -264,16 +300,6 @@
           "category": "tool"
         },
         {
-          "name": "AWS",
-          "usage-frequency": "often",
-          "category": "tool"
-        },
-        {
-          "name": "Git",
-          "usage-frequency": "day-to-day",
-          "category": "tool"
-        },
-        {
           "name": "Intellij IDEA",
           "usage-frequency": "day-to-day",
           "category": "tool"
@@ -305,12 +331,18 @@
           "description": "Contractor at UBS Investment Bank. I worked on capital commitment, automatic indication of interest generation and trade advertising applications at Cash Equities project."
         },
         {
-          "description": "I've introduced automatic system tests, enhanced logging that enabled tracking single requests, automatic build system using Gradle and Jenkins which improved speed and reliability of the process."
+          "description": "Introduced automatic system tests, enhanced logging that enabled tracking single requests, automatic build system using Gradle and Jenkins which improved speed and reliability of the process."
         }
       ],
       "start-date": "2014-03",
       "end-date": "2015-01",
       "skills": [
+        {
+          "name": "Java",
+          "detailed-name": "Java 6",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
         {
           "name": "QuickFIX/J",
           "usage-frequency": "often",
@@ -350,12 +382,6 @@
           "start-date": "2014-10",
           "usage-frequency": "often",
           "category": "tool"
-        },
-        {
-          "name": "Java",
-          "detailed-name": "Java 6",
-          "usage-frequency": "day-to-day",
-          "category": "language"
         },
         {
           "name": "Oracle",
@@ -456,6 +482,23 @@
           "category": "language"
         },
         {
+          "name": "Java",
+          "detailed-name": "Java 1.7",
+          "usage-frequency": "day-to-day",
+          "start-date": "2013-09",
+          "category": "language"
+        },
+        {
+          "name": "Spring",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Hibernate",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
           "name": "XSLT",
           "usage-frequency": "often",
           "category": "library"
@@ -473,16 +516,6 @@
         {
           "name": "Apache Wicket",
           "usage-frequency": "often",
-          "category": "library"
-        },
-        {
-          "name": "Spring",
-          "usage-frequency": "day-to-day",
-          "category": "library"
-        },
-        {
-          "name": "Hibernate",
-          "usage-frequency": "day-to-day",
           "category": "library"
         },
         {
@@ -509,13 +542,6 @@
           "name": "MySQL",
           "usage-frequency": "often",
           "category": "database"
-        },
-        {
-          "name": "Java",
-          "detailed-name": "Java 1.7",
-          "usage-frequency": "day-to-day",
-          "start-date": "2013-09",
-          "category": "language"
         },
         {
           "name": "MyBatis",

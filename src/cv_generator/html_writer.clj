@@ -58,6 +58,7 @@
                      :last-year        (time/year (time-format/parse (last-start-date cv)))
                      :years            (start-dates-and-years (start-dates-without-first-and-last cv))}
    :summary         (:summary cv)
+   :availability    (:availability cv)
    :skills          (:skills cv)
    :categories      (add-percentage-to-skills-in-categories (cv/skills-grouped-by-categories cv filter))
    :experience      (:experience cv)

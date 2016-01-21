@@ -118,6 +118,7 @@
   {:name            (str (:first-name cv) " " (:sur-name cv))
    :contact         (:contact cv)
    :summary         (:summary cv)
+   :availability    (:availability cv)
    :skills          (:skills cv)
    :categories      (skills-grouped-by-categories cv filter)
    :experience      (:experience cv)
