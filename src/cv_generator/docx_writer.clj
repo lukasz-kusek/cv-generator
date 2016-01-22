@@ -20,6 +20,7 @@
   (let [target-directory (str path "/target/" filename "/docx")
         source-directory (str path "/resources/templates/docx")
         document (str target-directory "/word/document.xml")]
+    (fs/delete-dir target-directory)
     (fs/copy-dir source-directory target-directory)
     (with-open [w (io/writer document)]
       (.write w (mustache/render-file "templates/docx" (cv/convert-to-data-map cv filter))))
