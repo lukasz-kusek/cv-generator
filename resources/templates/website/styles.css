@@ -156,7 +156,7 @@ br.left { clear: left; }
 }
 
 .skill_list ul {
-	width: 100px;
+	width: 140px;
 	margin-right: 10px;
 }
 
@@ -169,7 +169,7 @@ br.left { clear: left; }
 	height: 12px;
 	overflow: hidden;
 	margin: 0 0 10px 90px;
-	width: 180px;
+	width: 140px;
 }
 
 .progress_bar {

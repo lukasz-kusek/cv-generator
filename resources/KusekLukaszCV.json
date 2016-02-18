@@ -94,6 +94,11 @@
           "category": "other"
         },
         {
+          "name": "Distributed systems",
+          "usage-frequency": "often",
+          "category": "other"
+        },
+        {
           "name": "JSON",
           "usage-frequency": "day-to-day",
           "category": "other"
@@ -218,6 +223,11 @@
         {
           "name": "Microservices",
           "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Distributed systems",
+          "usage-frequency": "often",
           "category": "other"
         },
         {
@@ -450,6 +460,11 @@
           "name": "Mockito",
           "usage-frequency": "day-to-day",
           "category": "library"
+        },
+        {
+          "name": "Distributed systems",
+          "usage-frequency": "often",
+          "category": "other"
         }
       ]
     },
@@ -614,6 +629,11 @@
           "start-date": "2013-06",
           "end-date": "2013-07",
           "category": "language"
+        },
+        {
+          "name": "Distributed systems",
+          "usage-frequency": "often",
+          "category": "other"
         }
       ]
     },
