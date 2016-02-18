@@ -460,11 +460,6 @@
           "name": "Mockito",
           "usage-frequency": "day-to-day",
           "category": "library"
-        },
-        {
-          "name": "Distributed systems",
-          "usage-frequency": "often",
-          "category": "other"
         }
       ]
     },
