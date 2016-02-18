@@ -358,6 +358,12 @@
       ],
       "achievements": [
         {
+          "description": "Reverse engineered trade advertising and automatic indication of interest generation and made a presentation for business users."
+        },
+        {
+          "description": "Implemented a proper handling of introduced algos within Sales Facilitation applications."
+        },
+        {
           "description": "Introduced automatic system tests increasing quality of produced software."
         },
         {
