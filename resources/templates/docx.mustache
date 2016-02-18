@@ -365,6 +365,8 @@
                     <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
                     <w:b/>
                     <w:bCs/>
+                    <w:sz w:val="24"/>
+                    <w:szCs w:val="24"/>
                 </w:rPr>
                 <w:t>{{title}}</w:t>
             </w:r>
@@ -373,14 +375,26 @@
                     <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
                     <w:b w:val="false"/>
                     <w:bCs w:val="false"/>
+                    <w:sz w:val="24"/>
+                    <w:szCs w:val="24"/>
                 </w:rPr>
                 <w:t xml:space="preserve"> ({{start-date}} – {{end-date}})</w:t>
             </w:r>
-            <w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="PreformattedText"/>
                 <w:rPr>
                     <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
                 </w:rPr>
-                <w:t>, {{company.name}} ({{company.industry}}), {{company.location.city}}, {{company.location.country}}
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                    <w:sz w:val="24"/>
+                    <w:szCs w:val="24"/>
+                </w:rPr>
+                <w:t>{{company.name}} ({{company.industry}}), {{company.location.city}}, {{company.location.country}}
                 </w:t>
             </w:r>
         </w:p>
@@ -407,7 +421,74 @@
                 <w:t>{{employment}}</w:t>
             </w:r>
         </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="PreformattedText"/>
+                <w:rPr>
+                    <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                    <w:i/>
+                    <w:i/>
+                    <w:iCs/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr></w:rPr>
+            </w:r>
+        </w:p>
         {{#projects}}
+        {{#description}}
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="PreformattedText"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="1"/>
+                </w:numPr>
+                <w:rPr>
+                    <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                </w:rPr>
+                <w:t>{{.}}</w:t>
+            </w:r>
+        </w:p>
+        {{/description}}
+        {{/projects}}
+        {{#achievements?}}
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="PreformattedText"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:rPr>
+                    <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr></w:rPr>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="PreformattedText"/>
+                <w:rPr>
+                    <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                </w:rPr>
+                <w:t>Achievements</w:t>
+            </w:r>
+        </w:p>
+        {{/achievements?}}
+        {{#achievements}}
         <w:p>
             <w:pPr>
                 <w:pStyle w:val="PreformattedText"/>
@@ -426,7 +507,22 @@
                 <w:t>{{description}}</w:t>
             </w:r>
         </w:p>
-        {{/projects}}
+        {{/achievements}}
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="PreformattedText"/>
+                <w:numPr>
+                    <w:ilvl w:val="0"/>
+                    <w:numId w:val="0"/>
+                </w:numPr>
+                <w:rPr>
+                    <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr></w:rPr>
+            </w:r>
+        </w:p>
         <w:p>
             <w:pPr>
                 <w:pStyle w:val="PreformattedText"/>
@@ -449,6 +545,19 @@
                     <w:iCs/>
                 </w:rPr>
                 <w:t>: {{#skills}}{{name}}, {{/skills}}</w:t>
+            </w:r>
+        </w:p>
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="PreformattedText"/>
+                <w:rPr>
+                    <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                </w:rPr>
             </w:r>
         </w:p>
         <w:p>

@@ -114,6 +114,10 @@
 (defn skills-grouped-by-categories [cv filter]
   (sort compare-names (map to-category-map (seq (group-by-category (filter-skills (extract-skills cv) filter))))))
 
+(defn add-achievements-empty-list-marker [experience]
+  (merge experience {:achievements? (not (empty? (:achievements experience)))})
+  )
+
 (defn convert-to-data-map [cv filter]
   {:name            (str (:first-name cv) " " (:sur-name cv))
    :contact         (:contact cv)
@@ -121,6 +125,6 @@
    :availability    (:availability cv)
    :skills          (:skills cv)
    :categories      (skills-grouped-by-categories cv filter)
-   :experience      (:experience cv)
+   :experience      (map add-achievements-empty-list-marker (:experience cv))
    :recommendations (:recommendations cv)
    :learning        (:learning cv)})

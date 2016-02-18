@@ -36,8 +36,15 @@
 {{/positions}}
 Position type: {{employment}}
 {{#projects}}
-* {{description}}
+* {{#description}}{{.}} {{/description}}
 {{/projects}}
+
+{{#achievements?}}
+Achievements
+{{/achievements?}}
+{{#achievements}}
+* {{description}}
+{{/achievements}}
 
 Technologies: {{#skills}}{{name}}, {{/skills}}
 

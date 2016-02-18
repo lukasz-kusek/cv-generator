@@ -104,8 +104,14 @@
 							<h5>{{company.name}}, {{company.location.city}}, {{company.location.country}}</h5>
 							<p><em>Industry: {{company.industry}}</em><br /><em>Position type: {{employment}}</em></p>
                             {{#projects}}
-							<p>{{description}}</p>
+                            <p>{{#description}}{{.}}<br/>{{/description}}</p>
                             {{/projects}}
+                            {{#achievements?}}
+                            <p><em>Achievements: </em></p>
+                            {{/achievements?}}
+                            {{#achievements}}
+							<p>{{description}}</p>
+                            {{/achievements}}
                             <p><em>Technologies: </em>
                             {{#skills}}
                                 {{name}},

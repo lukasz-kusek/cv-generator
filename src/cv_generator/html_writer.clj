@@ -45,6 +45,10 @@
     (println max-rank)
     (map #(add-percentage-to-skills-in-category % max-rank) categories)))
 
+(defn add-achievements-empty-list-marker [experience]
+  (merge experience {:achievements? (not (empty? (:achievements experience)))})
+  )
+
 (defn convert-to-data-map [cv filter filename]
   {:cv-name         filename
    :title           {:html        (str (:first-name cv) " " (:sur-name cv) " - " (:title (:summary cv)))
@@ -61,7 +65,7 @@
    :availability    (:availability cv)
    :skills          (:skills cv)
    :categories      (add-percentage-to-skills-in-categories (cv/skills-grouped-by-categories cv filter))
-   :experience      (:experience cv)
+   :experience      (map add-achievements-empty-list-marker (:experience cv))
    :recommendations (:recommendations cv)
    :learning        (:learning cv)})
 
