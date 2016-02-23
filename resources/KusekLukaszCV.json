@@ -351,7 +351,7 @@
         {
           "description": [
             "Contractor at UBS Investment Bank.",
-            "I worked on capital commitment, automatic indication of interest generation and trade advertising applications supporting sales traders and market makers at Cash Equities project.",
+            "I worked on front office applications (capital commitment, automatic indication of interest generation and trade advertising) supporting sales traders and market makers at Cash Equities project.",
             "Applications were event driven, based on FIX protocol and low latency (<5ms)."
           ]
         }
