@@ -10,10 +10,10 @@
     "address": "Harpenden, UK"
   },
   "summary": {
-    "title": "Scala Engineer (Contractor)",
-    "description": "Senior software engineer with almost 6 years commercial experience (9 years including part-time jobs). My area of expertise is building highly available backend services on JVM platform (Scala - 10 months, Java - 5 years)."
+    "title": "Contractor Software Engineer",
+    "description": "Contractor Software Engineer with 6 years commercial experience (9 years including part-time jobs). My area of expertise is building highly available backend services on JVM platform (Scala - 1 year, Java - 5 years)."
   },
-  "availability": "End of April / beginning of May 2016",
+  "availability": "December 2016",
   "experience": [
     {
       "positions": [
@@ -820,6 +820,13 @@
       }
     ],
     "conferences-trainings": [
+      {
+        "name": "QCon London",
+        "type": "conference",
+        "date": "2016",
+        "duration": "3 days",
+        "www": "https://qconlondon.com/"
+      },
       {
         "name": "Uncle Bob's Advanced TDD",
         "type": "course",

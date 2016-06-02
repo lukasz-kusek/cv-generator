@@ -5,7 +5,8 @@
             [clojure.math.numeric-tower :as math]
             [clojure.string :as string])
   (:use [cv-generator.path])
-  (:import (org.joda.time DateTime Months))
+  (:import (org.joda.time DateTime Months)
+           (org.joda.time.format DateTimeFormat))
   )
 
 (def frequencies
@@ -127,4 +128,5 @@
    :categories      (skills-grouped-by-categories cv filter)
    :experience      (map add-achievements-empty-list-marker (:experience cv))
    :recommendations (:recommendations cv)
-   :learning        (:learning cv)})
+   :learning        (:learning cv)
+   :last-updated    (. (DateTimeFormat/shortDate) print (new DateTime))})

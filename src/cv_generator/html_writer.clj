@@ -5,7 +5,9 @@
             [clj-time.format :as time-format]
             [clj-time.core :as time]
             [clojure.string :as string])
-  (:use [cv-generator.path]))
+  (:use [cv-generator.path])
+  (:import (org.joda.time DateTime)
+           (org.joda.time.format DateTimeFormat)))
 
 (defn sorted-start-dates [cv]
   (sort (map #(:start-date %) (:experience cv))))
@@ -67,7 +69,8 @@
    :categories      (add-percentage-to-skills-in-categories (cv/skills-grouped-by-categories cv filter))
    :experience      (map add-achievements-empty-list-marker (:experience cv))
    :recommendations (:recommendations cv)
-   :learning        (:learning cv)})
+   :learning        (:learning cv)
+   :last-updated    (. (DateTimeFormat/shortDate) print (new DateTime))})
 
 (defn export-to-html [cv filter filename]
   (with-open [w (io/writer (str path "/target/" filename ".html"))]
