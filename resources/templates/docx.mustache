@@ -628,6 +628,49 @@
                 <w:rPr>
                     <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
                 </w:rPr>
+                <w:t>TRAININGS / CONFERENCES</w:t>
+            </w:r>
+        </w:p>
+        {{#learning.conferences-trainings}}
+            <w:p>
+                <w:pPr>
+                    <w:pStyle w:val="PreformattedText"/>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                    </w:rPr>
+                    <w:t>{{name}} ({{date}})</w:t>
+                </w:r>
+            </w:p>
+            <w:p>
+                <w:pPr>
+                    <w:pStyle w:val="PreformattedText"/>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                    </w:rPr>
+                </w:pPr>
+                <w:r>
+                    <w:rPr>
+                        <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                    </w:rPr>
+                </w:r>
+            </w:p>
+        {{/learning.conferences-trainings}}
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="Heading2"/>
+                <w:rPr>
+                    <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                </w:rPr>
+            </w:pPr>
+            <w:r>
+                <w:rPr>
+                    <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
+                </w:rPr>
                 <w:t>RECOMMENDATIONS</w:t>
             </w:r>
         </w:p>

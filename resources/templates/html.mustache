@@ -201,18 +201,29 @@
 			</div>
 			<!-- // end of skills info (sidebar) -->
 			<!-- start of education info (sidebar) -->
-			<div id="education" class="sidebarPanel" style="padding-top: 20px">
+			<div id="education" class="sidebarPanel">
 				<h4>education</h4>
 
                 {{#learning.education}}
                     {{start-date}} - {{end-date}}<br>
 				<p>
-                    {{field-of-study}}<br>
+                    {{field-of-study}}<br/>
 					<em>{{school-name}}</em><br>
 				</p>
                 {{/learning.education}}
 			</div>
 			<!-- // end of education info (sidebar) -->
+            <!-- start of trainings info (sidebar) -->
+            <div id="trainings" class="sidebarPanel">
+                <h4>trainings / conferences</h4>
+
+                <p>
+                {{#learning.conferences-trainings}}
+                     {{name}} ({{date}})<br/>
+                {{/learning.conferences-trainings}}
+                </p>
+            </div>
+            <!-- // end of trainings info (sidebar) -->
 			<!-- start of cv info (sidebar) -->
 			<div id="cv" class="sidebarPanel">
 				<h4>cv / pages</h4>
