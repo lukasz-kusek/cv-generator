@@ -4,7 +4,7 @@
   "contact": {
     "phone": "(44) 7990 486260",
     "email": "natalia-cv@kusek.info",
-    "linkedin": "",
+    "linkedin": "https://uk.linkedin.com/in/nataliakusek/en",
     "website": "http://natalia.kusek.info",
     "address": "Harpenden, UK"
   },
@@ -57,7 +57,7 @@
       "employment": "permanent",
       "company": {
         "name": "GISON",
-        "industry": "",
+        "industry": "GIS systems provider",
         "location": {
           "city": "Krakow",
           "country": "Poland"
