@@ -10,9 +10,9 @@
   },
   "summary": {
     "title": "Land Surveyor/GIS Technician",
-    "description": ""
+    "description": "Master of Science in Geodesy, Surveying and Cartography with 10 months experience in GIS and 3 years in land surveying."
   },
-  "availability": "",
+  "availability": "2 weeks",
   "experience": [
     {
       "positions": [
@@ -20,7 +20,7 @@
           "title": "GIS Technician"
         }
       ],
-      "employment": "full-time",
+      "employment": "contractor via agency",
       "company": {
         "name": "Cyient",
         "industry": "Telecommunication",
@@ -31,7 +31,7 @@
       },
       "projects": [
         {
-          "description": ""
+          "description": "Designing fibre network for BT."
         }
       ],
       "start-date": "2015-11",
@@ -54,7 +54,7 @@
           "title": "GIS Technician Intern"
         }
       ],
-      "employment": "full-time",
+      "employment": "permanent",
       "company": {
         "name": "GISON",
         "industry": "",
@@ -65,7 +65,7 @@
       },
       "projects": [
         {
-          "description": ""
+          "description": "Creating metadata, digitalizing map data."
         }
       ],
       "start-date": "2014-11",
@@ -95,7 +95,7 @@
       },
       "projects": [
         {
-          "description": ""
+          "description": "Real estate divisions, resumptions of border, maps updates."
         }
       ],
       "start-date": "2011-11",
@@ -129,7 +129,7 @@
           "title": "Land Surveyor Assistant"
         }
       ],
-      "employment": "full-time",
+      "employment": "permanent",
       "company": {
         "name": "GEOPROF",
         "industry": "Land surveying",
@@ -140,7 +140,7 @@
       },
       "projects": [
         {
-          "description": ""
+          "description": "Maps updates."
         }
       ],
       "start-date": "2010-06",
