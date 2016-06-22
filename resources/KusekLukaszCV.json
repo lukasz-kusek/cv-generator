@@ -33,9 +33,9 @@
       "projects": [
         {
           "description": [
-            "I work on low latency services (<10ms) that informs shoppers what is in and out of stock.",
-            "Services are designed to be highly available and scalable (akka cluster, AWS, blue-green deployment), highly responsive (actor model) and low latency (in-memory cache with akka sharding).",
-            "Services are based on CQRS and event sourcing."
+            "I worked on low latency services (<10ms) that informs shoppers what is in and out of stock.",
+            "Services were designed to be highly available and scalable (akka cluster, AWS, blue-green deployment), highly responsive (actor model) and low latency (in-memory cache with akka sharding).",
+            "Services were based on CQRS and event sourcing."
           ]
         }
       ],
