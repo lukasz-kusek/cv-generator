@@ -801,6 +801,16 @@
   ],
   "recommendations": [
     {
+      "name": "Csaba Kerti",
+      "date": "June 23, 2016",
+      "recommendation": "I have had the pleasure of working with Łukasz in the same team at Ocado Technology. He very quickly picked up the new technology stack of our team (Scala and Akka) and he became a master of them. He is a highly creative and innovative individual, who has contributed many great architectural designs to our projects. Łukasz is extremely hard working who consistently delivers high quality work products, keen to produce clean code and meanwhile meets or exceeds deadlines. I would recommend him to anybody."
+    },
+    {
+      "name": "Alessandro Simi",
+      "date": "June 22, 2016",
+      "recommendation": "Working with Łukasz has been a great experience. Since the first day I had a high feeling of collaboration: I always remember the series of discussions we had about various aspects of the software. His impact on the team was very important, not only for the technical point of view, but also he managed to influence the way we were working. As result, in few weeks we reached and higher quality bar and we produced great software. I recommend Łukasz as colleague for his vast technical skills but also because he is a great person to work with."
+    },
+    {
       "name": "Daniel Stoner",
       "date": "June 22, 2016",
       "recommendation": "I have had the great fortune to work alongside Lukasz over the past year. He is a dedicated, cool-headed developer and a strong supportive leader of those around him. He has excelled in building and maintaining a strong, resilient and reliable series of applications operating together in near real-time. It is a huge loss for our organisation to see Lukasz leave - but know that he has left a lasting legacy in not just the software he has developed but in those whom he has supported in building their own experience."
