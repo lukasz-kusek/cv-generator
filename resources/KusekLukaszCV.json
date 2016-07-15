@@ -18,6 +18,46 @@
     {
       "positions": [
         {
+          "title": "Java Scala Developer"
+        }
+      ],
+      "employment": "contract",
+      "company": {
+        "name": "HSBC",
+        "industry": "Investment banking",
+        "location": {
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      },
+      "projects": [
+        {
+          "description": [
+            "FX eDistribution"
+          ]
+        }
+      ],
+      "achievements": [
+
+      ],
+      "start-date": "2016-06",
+      "skills": [
+        {
+          "name": "Scala",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Java",
+          "detailed-name": "Java 8",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
           "title": "Senior Software Engineer (Scala)"
         }
       ],
