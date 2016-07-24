@@ -33,7 +33,7 @@
       "projects": [
         {
           "description": [
-            "FX eDistribution"
+            "I work at the FX eDistribution project on a backend service supporting an UI component responsible for controlling lifecycle of algorithmic FX orders (TWAP, Implementation Shortfall, Liquidity Seeking and Benchmark)."
           ]
         }
       ],
@@ -52,6 +52,41 @@
           "detailed-name": "Java 8",
           "usage-frequency": "day-to-day",
           "category": "language"
+        },
+        {
+          "name": "Akka",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "Git",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Splunk",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Grafana",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "TeamCity",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Intellij IDEA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Maven",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
         }
       ]
     },

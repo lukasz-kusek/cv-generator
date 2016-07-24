@@ -27,5 +27,9 @@
   "Distributed systems",
   "Event Sourcing",
   "XML",
-  "OAuth2"
+  "OAuth2",
+  "TeamCity",
+  "Splunk",
+  "Grafana",
+  "Jenkins"
 ]
