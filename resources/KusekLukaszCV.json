@@ -11,14 +11,14 @@
   },
   "summary": {
     "title": "Contractor Software Engineer",
-    "description": "Contractor Software Engineer with 6 years commercial experience (9 years including part-time jobs). My area of expertise is building highly available backend services on JVM platform (Scala - 1 year, Java - 5 years)."
+    "description": "Contractor Software Engineer with 7 years commercial experience (10 years including part-time jobs). My area of expertise is building highly available backend services on JVM platform (Scala - 1.5 year, Java - 6 years)."
   },
-  "availability": "4 weeks or mid December 2016",
+  "availability": "4 weeks or mid December 2017",
   "experience": [
     {
       "positions": [
         {
-          "title": "Java Scala Developer"
+          "title": "Contractor Software Engineer"
         }
       ],
       "employment": "contract",
@@ -33,7 +33,7 @@
       "projects": [
         {
           "description": [
-            "I work at the FX eDistribution project on a backend service supporting an UI component responsible for controlling lifecycle of algorithmic FX orders (TWAP, Implementation Shortfall, Liquidity Seeking and Benchmark)."
+            "I work at the FX eDistribution project on a backend service supporting an UI component responsible for controlling lifecycle of algorithmic FX orders (TWAP, Implementation Shortfall, Liquidity Seeking) and market FX orders (Stop Loss, Take Profit and Benchmark)."
           ]
         }
       ],
@@ -43,25 +43,20 @@
       "start-date": "2016-06",
       "skills": [
         {
-          "name": "Scala",
-          "usage-frequency": "day-to-day",
-          "category": "language"
-        },
-        {
           "name": "Java",
           "detailed-name": "Java 8",
           "usage-frequency": "day-to-day",
           "category": "language"
         },
         {
-          "name": "Akka",
-          "usage-frequency": "day-to-day",
-          "category": "library"
-        },
-        {
           "name": "Git",
           "usage-frequency": "day-to-day",
           "category": "tool"
+        },
+        {
+          "name": "Microservices",
+          "usage-frequency": "day-to-day",
+          "category": "other"
         },
         {
           "name": "Splunk",
@@ -70,7 +65,12 @@
         },
         {
           "name": "Grafana",
-          "usage-frequency": "often",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "JIRA",
+          "usage-frequency": "day-to-day",
           "category": "tool"
         },
         {
@@ -87,6 +87,36 @@
           "name": "Maven",
           "usage-frequency": "day-to-day",
           "category": "tool"
+        },
+        {
+          "name": "Akka",
+          "usage-frequency": "occasionally",
+          "category": "library"
+        },
+        {
+          "name": "Scala",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "Clojure",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "Mockito",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "AssertJ",
+          "usage-frequency": "day-to-day",
+          "category": "library"
+        },
+        {
+          "name": "JUnit",
+          "usage-frequency": "day-to-day",
+          "category": "library"
         }
       ]
     },

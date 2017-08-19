@@ -10,10 +10,44 @@
   },
   "summary": {
     "title": "Land Surveyor/GIS Technician",
-    "description": "Master of Science in Geodesy, Surveying and Cartography with 10 months experience in GIS and 3 years in land surveying."
+    "description": "Master of Science in Geodesy, Surveying and Cartography with 1 year experience in GIS and 2 years in land surveying and CAD."
   },
-  "availability": "2 weeks",
+  "availability": "now",
   "experience": [
+    {
+      "positions": [
+        {
+          "title": "Director"
+        }
+      ],
+      "employment": "ownership",
+      "company": {
+        "name": "Kusek Ltd",
+        "industry": "IT",
+        "location": {
+          "city": "Harpenden",
+          "country": "United Kingdom"
+        }
+      },
+      "projects": [
+        {
+          "description": "Running a small IT company."
+        }
+      ],
+      "start-date": "2016-06",
+      "skills": [
+        {
+          "name": "Python",
+          "usage-frequency": "occasionally",
+          "category": "Programming"
+        },
+        {
+          "name": "xero.com",
+          "usage-frequency": "occasionally",
+          "category": "Accounting"
+        }
+      ]
+    },
     {
       "positions": [
         {
@@ -35,6 +69,7 @@
         }
       ],
       "start-date": "2015-11",
+      "end-date": "2016-10",
       "skills": [
         {
           "name": "ArcGIS",
@@ -114,12 +149,12 @@
         {
           "name": "MikroMap",
           "usage-frequency": "day-to-day",
-          "category": "Land surveying"
+          "category": "CAD"
         },
         {
           "name": "Ewmapa",
           "usage-frequency": "day-to-day",
-          "category": "Land surveying"
+          "category": "CAD"
         }
       ]
     },
