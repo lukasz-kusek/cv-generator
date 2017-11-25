@@ -4,16 +4,71 @@
   "contact": {
     "phone": "(44) 7990 486260",
     "email": "natalia-cv@kusek.info",
+    "github": "https://github.com/NataliaKusek",
     "linkedin": "https://uk.linkedin.com/in/nataliakusek/en",
     "website": "http://natalia.kusek.info",
     "address": "Harpenden, UK"
   },
   "summary": {
-    "title": "CAD/GIS Technician",
-    "description": "Master of Science in Geodesy, Surveying and Cartography with 1 year experience in GIS and 2 years in land surveying and CAD."
+    "title": "Junior Python Developer",
+    "description": "Master of Science in Geodesy, Surveying and Cartography with 1 year experience in GIS and 2 years in land surveying and CAD. Learning Python and SQL."
   },
   "availability": "now",
   "experience": [
+    {
+      "positions": [
+        {
+          "title": "Junior Python Developer"
+        }
+      ],
+      "employment": "ownership",
+      "company": {
+        "name": "Kusek Ltd",
+        "industry": "IT",
+        "location": {
+          "city": "Harpenden",
+          "country": "United Kingdom"
+        }
+      },
+      "projects": [
+        {
+          "description": "Learning Python and SQL."
+        }
+      ],
+      "start-date": "2017-11",
+      "skills": [
+        {
+          "name": "Python",
+          "usage-frequency": "often",
+          "category": "Programming"
+        },
+        {
+          "name": "Git",
+          "usage-frequency": "often",
+          "category": "Tool"
+        },
+        {
+          "name": "GitHub",
+          "usage-frequency": "often",
+          "category": "Tool"
+        },
+        {
+          "name": "SQL",
+          "usage-frequency": "often",
+          "category": "Programming"
+        },
+        {
+          "name": "PostgreSQL",
+          "usage-frequency": "often",
+          "category": "Database"
+        },
+        {
+          "name": "Markdown",
+          "usage-frequency": "occasionally",
+          "category": "Programming"
+        }
+      ]
+    },
     {
       "positions": [
         {
@@ -36,11 +91,6 @@
       ],
       "start-date": "2016-06",
       "skills": [
-        {
-          "name": "Python",
-          "usage-frequency": "occasionally",
-          "category": "Programming"
-        },
         {
           "name": "xero.com",
           "usage-frequency": "occasionally",
@@ -187,6 +237,13 @@
           "category": "CAD"
         }
       ]
+    }
+  ],
+  "recommendations": [
+    {
+      "name": "Mariusz Krukar",
+      "date": "October 8, 2016",
+      "recommendation": "Natalia is working fast and efficient and good result oriented, he´s opened to learn new things."
     }
   ],
   "learning": {
