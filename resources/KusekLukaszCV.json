@@ -82,6 +82,21 @@
           "category": "tool"
         },
         {
+          "name": "InfluxDB",
+          "usage-frequency": "occasionally",
+          "category": "database"
+        },
+        {
+          "name": "Telegraf",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "Elasticsearch",
+          "usage-frequency": "occasionally",
+          "category": "database"
+        },
+        {
           "name": "JIRA",
           "usage-frequency": "day-to-day",
           "category": "tool"
