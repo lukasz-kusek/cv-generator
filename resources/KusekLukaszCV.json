@@ -11,7 +11,7 @@
   },
   "summary": {
     "title": "Contractor Software Engineer",
-    "description": "Contractor Software Engineer with 9 years commercial experience (12 years including part-time jobs). My area of expertise is building microservices-based backend applications on JVM platform (Java - 7.5 years, Scala - 1.5 year, Kotlin, Clojure) on Linux. Recently started to learn Rust."
+    "description": "Contractor Software Engineer with 9 years commercial experience (12 years including part-time jobs) and expertise in building microservices-based backend applications on JVM platform (Java - 7.5 years, Scala - 1.5 year, Kotlin, Clojure) on Linux. Advocates for being Agile, not doing Agile; and DevOps. Recently started to learn Rust."
   },
   "availability": "4 weeks or end of June 2019",
   "experience": [
@@ -140,6 +140,16 @@
           "name": "Linux",
           "usage-frequency": "day-to-day",
           "category": "os"
+        },
+        {
+          "name": "DevOps",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Agile",
+          "usage-frequency": "day-to-day",
+          "category": "other"
         }
       ]
     },
@@ -304,6 +314,16 @@
           "name": "Linux",
           "usage-frequency": "day-to-day",
           "category": "os"
+        },
+        {
+          "name": "DevOps",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Agile",
+          "usage-frequency": "day-to-day",
+          "category": "other"
         }
       ]
     },
@@ -414,6 +434,16 @@
           "name": "Linux",
           "usage-frequency": "day-to-day",
           "category": "os"
+        },
+        {
+          "name": "DevOps",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Agile",
+          "usage-frequency": "day-to-day",
+          "category": "other"
         }
       ]
     },
