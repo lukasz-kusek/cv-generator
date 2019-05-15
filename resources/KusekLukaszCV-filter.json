@@ -1,5 +1,7 @@
 [
   "Java",
+  "Kotlin",
+  "Rust",
   "JavaScript",
   "Scala",
   "Bash",
@@ -11,10 +13,8 @@
   "Cucumber",
   "CameronFIX",
   "QuickFIX/J",
-  "Spring",
   "Guice",
   "Ratpack",
-  "Hibernate",
   "DynamoDB",
   "PostgreSQL",
   "Oracle",
@@ -41,5 +41,6 @@
   "Jenkins",
   "InfluxDB",
   "Telegraf",
-  "Elasticsearch"
+  "Elasticsearch",
+  "Linux"
 ]
