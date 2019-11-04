@@ -13,8 +13,145 @@
     "title": "Contractor Software Engineer",
     "description": "Contractor Software Engineer with 9 years commercial experience (12 years including part-time jobs) and expertise in building microservices-based backend applications on JVM platform (Java - 7.5 years, Scala - 1.5 year, Kotlin, Clojure) on Linux. Advocates for being Agile, not doing Agile; and DevOps. Recently started to learn Rust."
   },
-  "availability": "4 weeks or end of June 2019",
+  "availability": "December 2019",
   "experience": [
+    {
+      "positions": [
+        {
+          "title": "Contractor Software Engineer"
+        }
+      ],
+      "employment": "contract",
+      "company": {
+        "name": "HSBC",
+        "industry": "Investment banking",
+        "location": {
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      },
+      "projects": [
+        {
+          "description": [
+            "Migrated Equities Prime Portal from Flash-based platform to HTML5/JavaScript platform."
+          ]
+        }
+      ],
+      "start-date": "2019-07",
+      "skills": [
+        {
+          "name": "Java",
+          "detailed-name": "Java 8",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Kotlin",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "TypeScript",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Git",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Microservices",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "JIRA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Intellij IDEA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Maven",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "Clojure",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "JavaScript",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "Bash",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "JSON",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "REST",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "SQL",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "Linux",
+          "usage-frequency": "day-to-day",
+          "category": "os"
+        },
+        {
+          "name": "DevOps",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Ansible",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "Agile",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "webpack",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "puppeteer",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Node.js",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "OpenFin",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        }
+      ]
+    },
     {
       "positions": [
         {
@@ -49,6 +186,7 @@
         }
       ],
       "start-date": "2019-02",
+      "end-date": "2019-07",
       "skills": [
         {
           "name": "Java",
@@ -135,11 +273,6 @@
           "name": "Intellij IDEA",
           "usage-frequency": "day-to-day",
           "category": "tool"
-        },
-        {
-          "name": "Linux",
-          "usage-frequency": "day-to-day",
-          "category": "os"
         },
         {
           "name": "DevOps",

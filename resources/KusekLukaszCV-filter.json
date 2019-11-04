@@ -3,6 +3,7 @@
   "Kotlin",
   "Rust",
   "JavaScript",
+  "TypeScript",
   "Scala",
   "Bash",
   "SQL",
@@ -44,5 +45,9 @@
   "Elasticsearch",
   "Linux",
   "DevOps",
-  "Agile"
+  "Agile",
+  "webpack",
+  "puppeteer",
+  "Node.js",
+  "OpenFin"
 ]

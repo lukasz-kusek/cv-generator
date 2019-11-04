@@ -62,7 +62,7 @@
    :years           {:first-start-date (first-start-date cv)
                      :first-year       (time/year (time-format/parse (first-start-date cv)))
                      :last-year        (time/year (time-format/parse (last-start-date cv)))
-                     :years            (start-dates-and-years (start-dates-without-first-and-last cv))}
+                     :years            (take-nth 2 (start-dates-and-years (start-dates-without-first-and-last cv)))}
    :summary         (:summary cv)
    :availability    (:availability cv)
    :skills          (:skills cv)
