@@ -52,8 +52,8 @@
       "projects": [
         {
           "description": [
-            "Introduced a concept of a cross cloud providers hosting platform (GCP, Alicloud, AWS) to enable teams to deliver business solutions quickly and safely to production with toil reduced to minimum.",
             "Building the platform using GKE (Google Kubernetes Engine) for Global Banking and Markets (GBM) Securities Financing departament.",
+            "Introduced a concept of a cross cloud providers hosting platform (GCP, Alicloud, AWS) to enable teams to deliver business solutions quickly and safely to production with toil reduced to minimum.",
             "Leading technology choices and design.",
             "Advocating Agile and DevOps."
           ]
@@ -214,10 +214,10 @@
       "projects": [
         {
           "description": [
-            "Lead technology choices and design.",
-            "Introduced an Agile approach with full customer collaboration using prototypes which prevented us from going into wrong direction.",
             "Successfully delivered a stock locating client facing application for Global Banking and Markets (GBM) Equities Prime clients.",
-            "Front to back delivery in a delivery-focused team following Agile and DevOps principles."
+            "Front to back delivery in a delivery-focused team following Agile and DevOps principles.",
+            "Lead technology choices and design.",
+            "Introduced an Agile approach with full customer collaboration using prototypes which prevented us from going into wrong direction."
           ]
         }
       ],
@@ -367,8 +367,8 @@
       "projects": [
         {
           "description": [
-            "Lead technology choices and design.",
-            "Building a hosting platform for JVM-based microservices to enable teams in Global Banking and Markets (GBM) Securities Financing departament to deliver quickly and safely business solutions to production. Advocating Agile and DevOps."
+            "Building a hosting platform for JVM-based microservices to enable teams in Global Banking and Markets (GBM) Securities Financing departament to deliver quickly and safely business solutions to production. Advocating Agile and DevOps.",
+            "Lead technology choices and design."
           ]
         }
       ],
@@ -460,11 +460,11 @@
       "projects": [
         {
           "description": [
-            "Lead technology choices and design.",
             "Successfully migrated client facing portal for Global Banking and Markets (GBM) Equities Prime clients from Flash-based platform to HTML5/TypeScript platform in an Agile iterative way with full business involvement.",
             "Full back to front project including: analysis of existing solution, rewriting a monolith application into a set of microservices, migration of existing 6-month release cycle into one change - one release release cycle incorporating DevOps and Agile principles.",
             "Built entitlements service and administrative UI.",
-            "Created a HTML5 application for OpenFin and browsers."
+            "Created a HTML5 application for OpenFin and browsers.",
+            "Lead technology choices and design."
           ]
         }
       ],
@@ -950,7 +950,7 @@
         {
           "description": [
             "Worked at the FX eDistribution project on a backend service supporting an UI component responsible for controlling lifecycle of algorithmic FX orders (TWAP, Implementation Shortfall, Liquidity Seeking) and market FX orders (Stop Loss, Take Profit and Benchmark).",
-            "Lead backend services design and delivery"
+            "Lead backend services design and delivery."
           ]
         }
       ],
