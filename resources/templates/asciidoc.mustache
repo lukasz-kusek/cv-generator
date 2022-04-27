@@ -9,7 +9,9 @@
 
 == {{summary.title}}
 
-{{summary.description}}
+{{#summary.description}}
+{{.}}
+{{/summary.description}}
 
 === Availability
 
@@ -41,7 +43,8 @@ Achievements
 {{/achievements?}}
 
 {{#achievements}}
-    * {{description}}
+    * {{#description}}
+      {{.}}{{/description}}
 {{/achievements}}
 
 Technologies: {{#skills}}{{name}}, {{/skills}}

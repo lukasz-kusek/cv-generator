@@ -11,7 +11,9 @@ Address: {{contact.address}}
 
 PROFILE
 ========================================================================================================================
-{{summary.description}}
+{{#summary.description}}
+{{.}}
+{{/summary.description}}
 
 AVAILABILITY
 ========================================================================================================================
@@ -44,7 +46,8 @@ Position type: {{employment}}
 Achievements
 {{/achievements?}}
 {{#achievements}}
-    * {{description}}
+    * {{#description}}
+      {{.}}{{/description}}
 {{/achievements}}
 
 Technologies: {{#skills}}{{name}}, {{/skills}}

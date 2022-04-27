@@ -200,6 +200,7 @@
                 <w:t>PROFILE</w:t>
             </w:r>
         </w:p>
+        {{#summary.description}}
         <w:p>
             <w:pPr>
                 <w:pStyle w:val="PreformattedText"/>
@@ -211,9 +212,10 @@
                 <w:rPr>
                     <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
                 </w:rPr>
-                <w:t>{{summary.description}}</w:t>
+                <w:t>{{.}}</w:t>
             </w:r>
         </w:p>
+        {{/summary.description}}
         <w:p>
             <w:pPr>
                 <w:pStyle w:val="PreformattedText"/>
@@ -489,6 +491,7 @@
         </w:p>
         {{/achievements?}}
         {{#achievements}}
+        {{#description}}
         <w:p>
             <w:pPr>
                 <w:pStyle w:val="PreformattedText"/>
@@ -504,9 +507,10 @@
                 <w:rPr>
                     <w:rFonts w:ascii="Verdana" w:hAnsi="Verdana"/>
                 </w:rPr>
-                <w:t>{{description}}</w:t>
+                <w:t>{{.}}</w:t>
             </w:r>
         </w:p>
+        {{/description}}
         {{/achievements}}
         <w:p>
             <w:pPr>

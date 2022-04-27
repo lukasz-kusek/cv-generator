@@ -32,6 +32,8 @@
   "REST",
   "JSON",
   "Microservices",
+  "Hexagonal architecture",
+  "API-First",
   "Distributed systems",
   "Event Sourcing",
   "XML",
@@ -49,5 +51,8 @@
   "webpack",
   "puppeteer",
   "Node.js",
-  "OpenFin"
+  "OpenFin",
+  "GCP",
+  "Docker",
+  "Kubernetes"
 ]

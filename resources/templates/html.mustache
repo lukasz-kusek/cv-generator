@@ -110,7 +110,11 @@
                             <p><em>Achievements: </em></p>
                             {{/achievements?}}
                             {{#achievements}}
-							<p>{{description}}</p>
+							<p>
+                                {{#description}}
+                                {{.}}<br/>
+                                {{/description}}
+                            </p>
                             {{/achievements}}
                             <p><em>Technologies: </em>
                             {{#skills}}
@@ -149,7 +153,7 @@
 			<!-- start of profile info (sidebar) -->			
 			<div id="profile" class="sidebarPanel">
 				<h4>profile</h4>
-				<p>{{summary.description}}</p>
+				<p>{{#summary.description}}{{.}}<br/>{{/summary.description}}</p>
 			</div>
 			<!-- // end of profile info (sidebar) -->
 			<!-- start of cv info (sidebar) -->

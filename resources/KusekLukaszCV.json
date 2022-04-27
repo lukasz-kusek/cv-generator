@@ -10,10 +10,29 @@
     "address": "Harpenden, UK"
   },
   "summary": {
-    "title": "Contractor Software Engineer",
-    "description": "Contractor Software Engineer with 9 years commercial experience (12 years including part-time jobs) and expertise in building microservices-based backend applications on JVM platform (Java - 7.5 years, Scala - 1.5 year, Kotlin, Clojure) on Linux. Advocates for being Agile, not doing Agile; and DevOps. Recently started to learn Rust."
+    "title": "Software Engineer",
+    "description": [
+      "Software Engineer with over 11 years of commercial experience and expertise in building microservices-based backend applications on JVM platform (Kotlin, Java, Scala, Clojure) and frontend applications (TypeScript) on Linux (standalone servers, cloud environments - GCP, AWS, Kubernetes).",
+      "Experienced in leading small teams of developers, technical leadership and delivering products.",
+      "Solves problems that 'can't be done'.",
+      "",
+      "Advocates for:",
+      "- Following Agile principles, not just Agile processes and ceremonies",
+      "- Slicing work vertically to deliver small and often",
+      "- Reducing feedback loops",
+      "- Self-documenting code over comprehensive documentation",
+      "- Independent, non-breaking deployments",
+      "- Simplicity, not overcomplicated solutions",
+      "- Pragmatic, not dogmatic solutions",
+      "- DevOps, breaking silos, not just tooling setup",
+      "- Ownership",
+      "- Working closely with customers/clients/users",
+      "- Rapid prototyping, ‘spiking out’, testing assumptions",
+      "- Being aware of bigger picture, continuously thinking holistically",
+      "- Continuous improvement"
+    ]
   },
-  "availability": "December 2019",
+  "availability": "30 days",
   "experience": [
     {
       "positions": [
@@ -33,18 +52,38 @@
       "projects": [
         {
           "description": [
-            "Migrated Equities Prime Portal from Flash-based platform to HTML5/JavaScript platform."
+            "Introduced a concept of a cross cloud providers hosting platform (GCP, Alicloud, AWS) to enable teams to deliver business solutions quickly and safely to production with toil reduced to minimum.",
+            "Building the platform using GKE (Google Kubernetes Engine) for Global Banking and Markets (GBM) Securities Financing departament.",
+            "Leading technology choices and design.",
+            "Advocating Agile and DevOps."
           ]
         }
       ],
-      "start-date": "2019-07",
-      "skills": [
+      "achievements": [
         {
-          "name": "Java",
-          "detailed-name": "Java 8",
-          "usage-frequency": "day-to-day",
-          "category": "language"
+          "description": [
+            "Designed and implemented multiple services widely used in the department:",
+            "- Automated TLS certificates generation",
+            "- LDAP authentication",
+            "- Services catalog",
+            "- Automated release audit documents generation (change description, implementation tasks, testing evidence, quality scans, security scans) tailored for quick and safe approvals",
+            "- Deployment service fulfilling HSBC change management requirements",
+            "- Single sign on authentication/authorization mechanism for the UI components based on Kerberos and JWT tokens"
+          ]
         },
+        {
+          "description": [
+            "Lead a series of mob programming sessions to promote Agile approach."
+          ]
+        },
+        {
+          "description": [
+            "Delivered highly successful presentation about releasing smaller, faster and safer with highest number of views in the series."
+          ]
+        }
+      ],
+      "start-date": "2021-02",
+      "skills": [
         {
           "name": "Kotlin",
           "usage-frequency": "day-to-day",
@@ -62,6 +101,421 @@
         },
         {
           "name": "Microservices",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Hexagonal architecture",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "API-First",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "JIRA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Intellij IDEA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Maven",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "Bash",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "JSON",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "TLS certificates",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "LDAP",
+          "usage-frequency": "occasionally",
+          "category": "other"
+        },
+        {
+          "name": "Kerberos",
+          "usage-frequency": "occasionally",
+          "category": "other"
+        },
+        {
+          "name": "JWT",
+          "usage-frequency": "occasionally",
+          "category": "other"
+        },
+        {
+          "name": "REST",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Linux",
+          "usage-frequency": "day-to-day",
+          "category": "os"
+        },
+        {
+          "name": "GCP",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Docker",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Kubernetes",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "DevOps",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Agile",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "title": "Contractor Software Engineer"
+        }
+      ],
+      "employment": "contract",
+      "company": {
+        "name": "HSBC",
+        "industry": "Investment banking",
+        "location": {
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      },
+      "projects": [
+        {
+          "description": [
+            "Lead technology choices and design.",
+            "Introduced an Agile approach with full customer collaboration using prototypes which prevented us from going into wrong direction.",
+            "Successfully delivered a stock locating client facing application for Global Banking and Markets (GBM) Equities Prime clients.",
+            "Front to back delivery in a delivery-focused team following Agile and DevOps principles."
+          ]
+        }
+      ],
+      "achievements": [
+        {
+          "description": [
+            "The project was delivered on time although an initial 5-month delay when I joined the project."
+          ]
+        },
+        {
+          "description": [
+            "Delivery resulted immediate increase in client short balances."
+          ]
+        }
+      ],
+      "start-date": "2020-12",
+      "end-date": "2021-01",
+      "skills": [
+        {
+          "name": "Kotlin",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Java",
+          "detailed-name": "Java 8",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "TypeScript",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Git",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Microservices",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Hexagonal architecture",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "API-First",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "JIRA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Intellij IDEA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Maven",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "Bash",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "JSON",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "REST",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "SQL",
+          "usage-frequency": "occasionally",
+          "category": "language"
+        },
+        {
+          "name": "Linux",
+          "usage-frequency": "day-to-day",
+          "category": "os"
+        },
+        {
+          "name": "DevOps",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Ansible",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "Agile",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "webpack",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "puppeteer",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "Node.js",
+          "usage-frequency": "often",
+          "category": "tool"
+        },
+        {
+          "name": "OpenFin",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "title": "Contractor Software Engineer"
+        }
+      ],
+      "employment": "contract",
+      "company": {
+        "name": "HSBC",
+        "industry": "Investment banking",
+        "location": {
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      },
+      "projects": [
+        {
+          "description": [
+            "Lead technology choices and design.",
+            "Building a hosting platform for JVM-based microservices to enable teams in Global Banking and Markets (GBM) Securities Financing departament to deliver quickly and safely business solutions to production. Advocating Agile and DevOps."
+          ]
+        }
+      ],
+      "start-date": "2020-07",
+      "end-date": "2020-12",
+      "skills": [
+        {
+          "name": "Kotlin",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Git",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Microservices",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Hexagonal architecture",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "API-First",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "JIRA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Intellij IDEA",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Maven",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "Linux",
+          "usage-frequency": "day-to-day",
+          "category": "os"
+        },
+        {
+          "name": "DevOps",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Agile",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "GCP",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        },
+        {
+          "name": "Docker",
+          "usage-frequency": "occasionally",
+          "category": "tool"
+        }
+      ]
+    },
+    {
+      "positions": [
+        {
+          "title": "Contractor Software Engineer"
+        }
+      ],
+      "employment": "contract",
+      "company": {
+        "name": "HSBC",
+        "industry": "Investment banking",
+        "location": {
+          "city": "London",
+          "country": "United Kingdom"
+        }
+      },
+      "projects": [
+        {
+          "description": [
+            "Lead technology choices and design.",
+            "Successfully migrated client facing portal for Global Banking and Markets (GBM) Equities Prime clients from Flash-based platform to HTML5/TypeScript platform in an Agile iterative way with full business involvement.",
+            "Full back to front project including: analysis of existing solution, rewriting a monolith application into a set of microservices, migration of existing 6-month release cycle into one change - one release release cycle incorporating DevOps and Agile principles.",
+            "Built entitlements service and administrative UI.",
+            "Created a HTML5 application for OpenFin and browsers."
+          ]
+        }
+      ],
+      "achievements": [
+        {
+          "description": [
+            "Met the deadline with the safe margin."
+          ]
+        },
+        {
+          "description": [
+            "Delivered product in an iterative way with full business involvement and constant feedback."
+          ]
+        }
+      ],
+      "start-date": "2019-07",
+      "end-date": "2020-07",
+      "skills": [
+        {
+          "name": "Kotlin",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Java",
+          "detailed-name": "Java 8",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "TypeScript",
+          "usage-frequency": "day-to-day",
+          "category": "language"
+        },
+        {
+          "name": "Git",
+          "usage-frequency": "day-to-day",
+          "category": "tool"
+        },
+        {
+          "name": "Microservices",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Hexagonal architecture",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "API-First",
           "usage-frequency": "day-to-day",
           "category": "other"
         },
@@ -170,32 +624,38 @@
       "projects": [
         {
           "description": [
-            "Building a service producing insights for sales people using Machine Learning."
+            "Worked on a service producing insights for sales people based on clients trading history using Machine Learning."
           ]
         }
       ],
       "achievements": [
         {
-          "description": "Redesigned service based on an integration database into set of microservices."
+          "description": [
+            "Redesigned service based on an integration database into set of microservices."
+          ]
         },
         {
-          "description": "Automated release process which reduced manual steps to minimum."
+          "description": [
+            "Automated release process which reduced manual steps to minimum."
+          ]
         },
         {
-          "description": "Started a Rust User Group within HSBC. Brought Rust and Cargo into HSBC. Created crates.io mirror."
+          "description": [
+            "Started a Rust User Group within HSBC. Brought Rust and Cargo into HSBC. Created crates.io mirror."
+          ]
         }
       ],
       "start-date": "2019-02",
       "end-date": "2019-07",
       "skills": [
         {
-          "name": "Java",
-          "detailed-name": "Java 8",
+          "name": "Kotlin",
           "usage-frequency": "day-to-day",
           "category": "language"
         },
         {
-          "name": "Kotlin",
+          "name": "Java",
+          "detailed-name": "Java 8",
           "usage-frequency": "day-to-day",
           "category": "language"
         },
@@ -211,6 +671,11 @@
         },
         {
           "name": "Microservices",
+          "usage-frequency": "day-to-day",
+          "category": "other"
+        },
+        {
+          "name": "Hexagonal architecture",
           "usage-frequency": "day-to-day",
           "category": "other"
         },
@@ -310,13 +775,19 @@
       ],
       "achievements": [
         {
-          "description": "Completed full process of requesting, configuring and going through sign-off process of new production servers tailored for DevOps use."
+          "description": [
+            "Completed full process of requesting, configuring and going through sign-off process of new production servers tailored for DevOps use."
+          ]
         },
         {
-          "description": "Automated release process which increased delivery frequency from fortnightly to several per day."
+          "description": [
+            "Automated release process which increased delivery frequency from fortnightly to several per day."
+          ]
         },
         {
-          "description": "Built a set of microservices to replace team management system (including design, REST request/response and streaming APIs, eventing-based replication, PostgreSQL database, automatic schema migration with Flyway, UI with plain modern JavaScript)"
+          "description": [
+            "Built a set of microservices to replace team management system (including design, REST request/response and streaming APIs, eventing-based replication, PostgreSQL database, automatic schema migration with Flyway, UI with plain modern JavaScript)"
+          ]
         }
       ],
       "start-date": "2017-09",
@@ -478,11 +949,18 @@
       "projects": [
         {
           "description": [
-            "I worked at the FX eDistribution project on a backend service supporting an UI component responsible for controlling lifecycle of algorithmic FX orders (TWAP, Implementation Shortfall, Liquidity Seeking) and market FX orders (Stop Loss, Take Profit and Benchmark)."
+            "Worked at the FX eDistribution project on a backend service supporting an UI component responsible for controlling lifecycle of algorithmic FX orders (TWAP, Implementation Shortfall, Liquidity Seeking) and market FX orders (Stop Loss, Take Profit and Benchmark).",
+            "Lead backend services design and delivery"
           ]
         }
       ],
       "achievements": [
+        {
+          "description": ["Introduced automated integration and API contract tests which allowed to catch a number of issues with API our services consumed"]
+        },
+        {
+          "description": ["Delivered Stop Loss and Take Profit orders in a cooperation with the algorithmic trading team"]
+        }
       ],
       "start-date": "2016-06",
       "end-date": "2017-09",
@@ -598,7 +1076,7 @@
       "projects": [
         {
           "description": [
-            "I worked on low latency services (<10ms) that calculated availability of products in real time.",
+            "Worked on low latency services (<10ms) that calculated availability of products in real time.",
             "Services were designed to be highly available and scalable (akka cluster, AWS, blue-green deployment), highly responsive (actor model) and low latency (in-memory cache with akka sharding).",
             "Services were based on CQRS and event sourcing."
           ]
@@ -606,19 +1084,29 @@
       ],
       "achievements": [
         {
-          "description": "Introduced idea of team goal which helped us prioritize tasks and have common vision of our services."
+          "description": [
+            "Introduced idea of team goal which helped us prioritize tasks and have common vision of our services."
+          ]
         },
         {
-          "description": "Proposed adjustments to our sprint (pair programming, one story at a time) that improved collaboration and helped building trust."
+          "description": [
+            "Proposed adjustments to our sprint (pair programming, one story at a time) that improved collaboration and helped building trust."
+          ]
         },
         {
-          "description": "Created two OAuth2 libraries (non-blocking client with caching capabilities and testing library) that are widely used across teams at Ocado Technology."
+          "description": [
+            "Created two OAuth2 libraries (non-blocking client with caching capabilities and testing library) that are widely used across teams at Ocado Technology."
+          ]
         },
         {
-          "description": "Configured Continuous Delivery pipelines. Did a research on implementation of BlueGreen Deployment and found major flaws in the early stage what allowed us to prepare architecture of our applications before it's released to production."
+          "description": [
+            "Configured Continuous Delivery pipelines. Did a research on implementation of BlueGreen Deployment and found major flaws in the early stage what allowed us to prepare architecture of our applications before it's released to production."
+          ]
         },
         {
-          "description": "Migrated production and integration tests environments to new AWS account before given deadline."
+          "description": [
+            "Migrated production and integration tests environments to new AWS account before given deadline."
+          ]
         }
       ],
       "start-date": "2015-07",
@@ -759,17 +1247,21 @@
       "projects": [
         {
           "description": [
-            "I worked on the order management service.",
+            "Worked on the order management service.",
             "Service was part of distributed platform based on cloud computing environment."
           ]
         }
       ],
       "achievements": [
         {
-          "description": "Introduced testing standards in the team."
+          "description": [
+            "Introduced testing standards in the team."
+          ]
         },
         {
-          "description": "Lead tests quality sessions."
+          "description": [
+            "Lead tests quality sessions."
+          ]
         }
       ],
       "start-date": "2015-02",
@@ -911,7 +1403,7 @@
     {
       "positions": [
         {
-          "title": "Senior Software Developer (Java) - contractor"
+          "title": "Senior Software Developer (contract)"
         }
       ],
       "employment": "contract via vendor",
@@ -927,26 +1419,36 @@
         {
           "description": [
             "Contractor at UBS Investment Bank.",
-            "I worked on front office applications (capital commitment, automatic indication of interest generation and trade advertising) supporting sales traders and market makers at Cash Equities project.",
+            "Worked on front office applications (capital commitment, automatic indication of interest generation and trade advertising) supporting sales traders and market makers at Cash Equities project.",
             "Applications were event driven, based on FIX protocol and low latency (<5ms)."
           ]
         }
       ],
       "achievements": [
         {
-          "description": "Reverse engineered trade advertising and automatic indication of interest generation and made a presentation for business users."
+          "description": [
+            "Reverse engineered trade advertising and automatic indication of interest generation and made a presentation for business users."
+          ]
         },
         {
-          "description": "Implemented a proper handling of introduced algos within Sales Facilitation applications."
+          "description": [
+            "Implemented a proper handling of introduced algos within Sales Facilitation applications."
+          ]
         },
         {
-          "description": "Introduced automatic system tests increasing quality of produced software."
+          "description": [
+            "Introduced automatic system tests increasing quality of produced software."
+          ]
         },
         {
-          "description": "Enhanced logging by adding single request tracking which significantly decreased the investigation time in case of an issue."
+          "description": [
+            "Enhanced logging by adding single request tracking which significantly decreased the investigation time in case of an issue."
+          ]
         },
         {
-          "description": "Set up automatic build system which improved speed and reliability of the release process."
+          "description": [
+            "Set up automatic build system which improved speed and reliability of the release process."
+          ]
         }
       ],
       "start-date": "2014-03",
@@ -1057,12 +1559,12 @@
           "start-date": "2013-05"
         },
         {
-          "title": "Senior Java Developer - contractor",
+          "title": "Senior Java Developer (contract)",
           "start-date": "2012-05",
           "end-date": "2013-05"
         },
         {
-          "title": "Java Developer - contractor",
+          "title": "Java Developer (contract)",
           "end-date": "2012-04"
         }
       ],
@@ -1078,7 +1580,8 @@
       "projects": [
         {
           "description": [
-            "I worked on a cost saving migration project which involved over 30 major airlines.",
+            "Worked on a cost saving migration project which involved over 30 major airlines.",
+            "Lead the team of 4 developers during the last year of the project.",
             "The project was very challenging due to multiple dependencies (Sabre's internal systems, customer's systems), no downtime requirement, big amount of user data (data of 30M+ passengers of airlines), pressure of time, little documentation of the legacy system and all of it's features.",
             "Service was part of distributed platform built using SOA and SOAP web services."
           ]
@@ -1086,22 +1589,34 @@
       ],
       "achievements": [
         {
-          "description": "Finished the project 3 months before required deadline (license renewal of a proprietary mainframe)."
+          "description": [
+            "Finished the project 3 months before required deadline (license renewal of a proprietary mainframe)."
+          ]
         },
         {
-          "description": "Developed a XML comparison library using bipartite graph algorithm that significantly decreased number of discrepancies during the migration."
+          "description": [
+            "Developed a XML comparison library using bipartite graph algorithm that significantly decreased number of discrepancies during the migration."
+          ]
         },
         {
-          "description": "Created automated configuration diff tool reducing release time and increasing quality."
+          "description": [
+            "Created automated configuration diff tool reducing release time and increasing quality."
+          ]
         },
         {
-          "description": "Lead best practices developers meetings which helped keeping common understanding of the system in a big team (30 developers)."
+          "description": [
+            "Lead best practices developers meetings which helped keeping common understanding of the system in a big team (30 developers)."
+          ]
         },
         {
-          "description": "Created a configuration API as an abstraction over a configuration source (file, DB, JMX) that allowed operations team to have flexible configuration."
+          "description": [
+            "Created a configuration API as an abstraction over a configuration source (file, DB, JMX) that allowed operations team to have flexible configuration."
+          ]
         },
         {
-          "description": "Created searchable log application for QAs which allowed testing untestable before aspects."
+          "description": [
+            "Created searchable log application for QAs which allowed testing untestable before aspects."
+          ]
         }
       ],
       "start-date": "2011-07",
@@ -1314,10 +1829,14 @@
       ],
       "achievements": [
         {
-          "description": "Developed income optimizer for hospitals. Successfully deployed at the hospital in Sucha Beskidzka."
+          "description": [
+            "Developed income optimizer for hospitals. Successfully deployed at the hospital in Sucha Beskidzka."
+          ]
         },
         {
-          "description": "Researched and developed a 'proof of concept' application WebCTI - Asterisk / ConSol* CM in a single person R&D project."
+          "description": [
+            "Researched and developed a 'proof of concept' application WebCTI - Asterisk / ConSol* CM in a single person R&D project."
+          ]
         }
       ],
       "start-date": "2006-01",
