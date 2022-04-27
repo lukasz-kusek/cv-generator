@@ -52,7 +52,7 @@
       "projects": [
         {
           "description": [
-            "Building the platform using GKE (Google Kubernetes Engine) for Global Banking and Markets (GBM) Securities Financing departament.",
+            "Building a hosting platform using GKE (Google Kubernetes Engine) for Global Banking and Markets (GBM) Securities Financing departament.",
             "Introduced a concept of a cross cloud providers hosting platform (GCP, Alicloud, AWS) to enable teams to deliver business solutions quickly and safely to production with toil reduced to minimum.",
             "Leading technology choices and design.",
             "Advocating Agile and DevOps."
