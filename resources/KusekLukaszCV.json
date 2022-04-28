@@ -37,7 +37,7 @@
     {
       "positions": [
         {
-          "title": "Contractor Software Engineer"
+          "title": "Technical Lead"
         }
       ],
       "employment": "contract",
@@ -55,6 +55,9 @@
             "Building a hosting platform using GKE (Google Kubernetes Engine) for Global Banking and Markets (GBM) Securities Financing departament.",
             "Introduced a concept of a cross cloud providers hosting platform (GCP, Alicloud, AWS) to enable teams to deliver business solutions quickly and safely to production with toil reduced to minimum.",
             "Leading technology choices and design.",
+            "Reviewing code for other team members and (as an independent reviewer) other teams.",
+            "Actively working with Product Owner and other stakeholders to manage priorities, define delivery items for team of 4 engineers.",
+            "Leading interviews.",
             "Advocating Agile and DevOps."
           ]
         }
@@ -199,7 +202,7 @@
     {
       "positions": [
         {
-          "title": "Contractor Software Engineer"
+          "title": "Lead Software Engineer"
         }
       ],
       "employment": "contract",
@@ -352,7 +355,7 @@
     {
       "positions": [
         {
-          "title": "Contractor Software Engineer"
+          "title": "Technical Lead"
         }
       ],
       "employment": "contract",
@@ -445,7 +448,7 @@
     {
       "positions": [
         {
-          "title": "Contractor Software Engineer"
+          "title": "Lead Software Engineer"
         }
       ],
       "employment": "contract",
@@ -609,7 +612,7 @@
     {
       "positions": [
         {
-          "title": "Contractor Software Engineer"
+          "title": "Senior Software Engineer"
         }
       ],
       "employment": "contract",
@@ -754,7 +757,7 @@
     {
       "positions": [
         {
-          "title": "Contractor Software Engineer"
+          "title": "Senior Software Engineer"
         }
       ],
       "employment": "contract",
@@ -934,7 +937,7 @@
     {
       "positions": [
         {
-          "title": "Contractor Software Engineer"
+          "title": "Senior Software Engineer"
         }
       ],
       "employment": "contract",
@@ -1061,7 +1064,7 @@
     {
       "positions": [
         {
-          "title": "Senior Software Engineer (Scala)"
+          "title": "Senior Software Engineer"
         }
       ],
       "employment": "permanent",
@@ -1232,7 +1235,7 @@
     {
       "positions": [
         {
-          "title": "Senior Software Engineer (Java)"
+          "title": "Senior Software Engineer"
         }
       ],
       "employment": "permanent",
@@ -1403,7 +1406,7 @@
     {
       "positions": [
         {
-          "title": "Senior Software Developer (contract)"
+          "title": "Senior Software Engineer"
         }
       ],
       "employment": "contract via vendor",
@@ -1555,16 +1558,16 @@
     {
       "positions": [
         {
-          "title": "Senior Java Developer",
+          "title": "Technical Lead",
           "start-date": "2013-05"
         },
         {
-          "title": "Senior Java Developer (contract)",
+          "title": "Senior Software Engineer",
           "start-date": "2012-05",
           "end-date": "2013-05"
         },
         {
-          "title": "Java Developer (contract)",
+          "title": "Software Engineer",
           "end-date": "2012-04"
         }
       ],
@@ -1742,7 +1745,7 @@
     {
       "positions": [
         {
-          "title": "Java Developer"
+          "title": "Software Engineer"
         }
       ],
       "employment": "permanent",
